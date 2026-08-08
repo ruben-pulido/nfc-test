@@ -62,13 +62,13 @@
       <svg id="icon-next" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
     </div>
     <div class="reveal" id="reveal">
-      <img src="images/tag1.svg" alt="DO - DO on a musical staff">
-      <p>DO &middot; DO</p>
+      <img src="images/tag7.svg" alt="DO - SI on a musical staff">
+      <p>DO &middot; SI</p>
     </div>
   </div>
 
-  <audio id="audio" src="sounds/tag1.mp3" preload="auto"></audio>
-  <!-- tag1.mp3 contains the piano notes C4-C4 (DO-DO) -->
+  <audio id="audio" src="sounds/tag7.mp3" preload="auto"></audio>
+  <!-- tag7.mp3 contains the piano notes C4-B4 (DO-SI) -->
 
   <script>
     const audio = document.getElementById('audio');
@@ -82,7 +82,7 @@
     // stage 0 = blind (not played), 1 = played (waiting for reveal tap),
     // 2 = revealed (button is now "next" -> jumps to a random other tag)
     let stage = 0;
-    const OTHER_TAGS = [2, 3, 4, 5, 6, 7, 8]; // this tag's number excluded
+    const OTHER_TAGS = [1, 2, 3, 4, 5, 6, 8]; // this tag's number excluded
 
     function markPlayed() {
       if (stage !== 0) return;

@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+import os
+
+TEMPLATE = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>&#9834;</title>
 <style>
-  :root { color-scheme: light dark; }
-  html, body {
+  :root {{ color-scheme: light dark; }}
+  html, body {{
     height: 100%; margin: 0;
     background: #10131a;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -14,16 +16,16 @@
     overscroll-behavior: none;
     touch-action: manipulation;
     overflow: hidden;
-  }
-  #tapzone {
+  }}
+  #tapzone {{
     position: relative;
     height: 100%; width: 100%;
     display: flex; align-items: center; justify-content: center;
     cursor: pointer;
     user-select: none;
-  }
+  }}
 
-  .btn {
+  .btn {{
     width: 110px; height: 110px;
     border-radius: 50%;
     background: #4f7cff;
@@ -31,27 +33,27 @@
     color: white;
     box-shadow: 0 8px 28px rgba(79,124,255,0.4);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .btn svg { width: 42px; height: 42px; }
-  #tapzone.pressed .btn { transform: scale(0.92); }
+  }}
+  .btn svg {{ width: 42px; height: 42px; }}
+  #tapzone.pressed .btn {{ transform: scale(0.92); }}
 
-  .reveal {
+  .reveal {{
     position: absolute;
     display: flex; flex-direction: column; align-items: center;
     opacity: 0; transform: translateY(10px) scale(0.97);
     transition: opacity 0.45s ease, transform 0.45s ease;
     pointer-events: none;
     top: 18%;
-  }
-  .reveal.visible { opacity: 1; transform: translateY(0) scale(1); }
-  .reveal img { width: min(80vw, 440px); height: auto; }
-  .reveal p {
+  }}
+  .reveal.visible {{ opacity: 1; transform: translateY(0) scale(1); }}
+  .reveal img {{ width: min(80vw, 440px); height: auto; }}
+  .reveal p {{
     margin: 14px 0 0;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.02em;
     color: #f4f4f4;
-  }
+  }}
 </style>
 </head>
 <body>
@@ -62,13 +64,13 @@
       <svg id="icon-next" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
     </div>
     <div class="reveal" id="reveal">
-      <img src="images/tag1.svg" alt="DO - DO on a musical staff">
-      <p>DO &middot; DO</p>
+      <img src="images/tag{n}.svg" alt="{alt_text}">
+      <p>{label}</p>
     </div>
   </div>
 
-  <audio id="audio" src="sounds/tag1.mp3" preload="auto"></audio>
-  <!-- tag1.mp3 contains the piano notes C4-C4 (DO-DO) -->
+  <audio id="audio" src="sounds/tag{n}.mp3" preload="auto"></audio>
+  <!-- tag{n}.mp3 contains the piano notes {midi_comment} -->
 
   <script>
     const audio = document.getElementById('audio');
@@ -82,49 +84,49 @@
     // stage 0 = blind (not played), 1 = played (waiting for reveal tap),
     // 2 = revealed (button is now "next" -> jumps to a random other tag)
     let stage = 0;
-    const OTHER_TAGS = [2, 3, 4, 5, 6, 7, 8]; // this tag's number excluded
+    const OTHER_TAGS = {other_tags}; // this tag's number excluded
 
-    function markPlayed() {
+    function markPlayed() {{
       if (stage !== 0) return;
       stage = 1;
       iconPlay.style.display = 'none';
       iconEye.style.display = '';
-    }
+    }}
 
     // Silent auto-play attempts: only ever advance stage 0 -> 1, never
     // trigger the reveal or navigation. Fire on load and whenever the
     // page regains visibility/focus (e.g. after Android's NFC dialog).
-    function attemptAutoPlay() {
+    function attemptAutoPlay() {{
       if (stage !== 0) return;
-      audio.play().then(markPlayed).catch(() => {});
-    }
+      audio.play().then(markPlayed).catch(() => {{}});
+    }}
     attemptAutoPlay();
-    document.addEventListener('visibilitychange', () => {
+    document.addEventListener('visibilitychange', () => {{
       if (document.visibilityState === 'visible') attemptAutoPlay();
-    });
+    }});
     window.addEventListener('pageshow', attemptAutoPlay);
     window.addEventListener('focus', attemptAutoPlay);
 
-    function goToRandomTag() {
+    function goToRandomTag() {{
       const next = OTHER_TAGS[Math.floor(Math.random() * OTHER_TAGS.length)];
-      window.location.href = `tag${next}.html`;
-    }
+      window.location.href = `tag${{next}}.html`;
+    }}
 
     // A real, deliberate tap drives the stage machine:
     // stage 0 -> play blind; stage 1 -> reveal; stage 2 -> jump to a random other tag.
-    function handleTap() {
-      if (stage === 0) {
+    function handleTap() {{
+      if (stage === 0) {{
         audio.currentTime = 0;
-        audio.play().then(markPlayed).catch(() => {});
-      } else if (stage === 1) {
+        audio.play().then(markPlayed).catch(() => {{}});
+      }} else if (stage === 1) {{
         stage = 2;
         reveal.classList.add('visible');
         iconEye.style.display = 'none';
         iconNext.style.display = '';
-      } else {
+      }} else {{
         goToRandomTag();
-      }
-    }
+      }}
+    }}
 
     zone.addEventListener('pointerdown', () => zone.classList.add('pressed'));
     zone.addEventListener('pointerup', () => zone.classList.remove('pressed'));
@@ -133,3 +135,34 @@
   </script>
 </body>
 </html>
+'''
+
+INTERVALS = [
+    (1, ['DO', 'DO'], ['C4', 'C4']),
+    (2, ['DO', 'RE'], ['C4', 'D4']),
+    (3, ['DO', 'MI'], ['C4', 'E4']),
+    (4, ['DO', 'FA'], ['C4', 'F4']),
+    (5, ['DO', 'SOL'], ['C4', 'G4']),
+    (6, ['DO', 'LA'], ['C4', 'A4']),
+    (7, ['DO', 'SI'], ['C4', 'B4']),
+    (8, ['DO', 'DO'], ['C4', 'C5']),
+]
+
+ALL_TAGS = [n for n, _, _ in INTERVALS]
+
+for n, solfege, midi_notes in INTERVALS:
+    label = ' &middot; '.join(solfege)
+    alt_text = ' - '.join(solfege) + ' on a musical staff'
+    midi_comment = '-'.join(midi_notes) + ' (' + '-'.join(solfege) + ')'
+    other_tags = [t for t in ALL_TAGS if t != n]
+    html = TEMPLATE.format(
+        n=n,
+        label=label,
+        alt_text=alt_text,
+        midi_comment=midi_comment,
+        other_tags=other_tags,
+    )
+    path = f'/home/claude/nfc-site/tag{n}.html'
+    with open(path, 'w') as f:
+        f.write(html)
+    print(f'tag{n}.html done')

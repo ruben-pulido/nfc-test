@@ -1,55 +1,85 @@
-# NFC Sound Tags — Demo Site
+# NFC Sound Tags — Ascending Intervals Game
 
-Two web pages, each a "guess the notes" mini-game: tapping the NFC tag opens
-the page, which plays a piano note sequence blind (no notes shown yet). A
-second tap on the page reveals the notes on a staff and their solfège names.
+Eight web pages, one per NFC tag, each a "guess the interval" mini-game:
+tapping the tag opens the page, which plays two piano notes blind (Do,
+followed by a second note). A second tap reveals both notes on a staff and
+their solfège names. A third tap jumps to a random other tag's page, so
+tapping through several tags in a row feels like a shuffled quiz.
+
+## The 8 intervals
+
+| Tag | Notes | Interval |
+|-----|-------|----------|
+| tag1 | Do &ndash; Do | Unison |
+| tag2 | Do &ndash; Re | 2nd |
+| tag3 | Do &ndash; Mi | 3rd |
+| tag4 | Do &ndash; Fa | 4th |
+| tag5 | Do &ndash; Sol | 5th |
+| tag6 | Do &ndash; La | 6th |
+| tag7 | Do &ndash; Si | 7th |
+| tag8 | Do &ndash; Do | Octave |
+
+All eight always start on the same Do (C4), ascending, so the only variable
+between tags is how far the second note climbs.
 
 ## What's inside
 
 ```
 nfc-site/
-├── index.html          # landing page listing both tags
-├── tag1.html            # DO - MI - SOL (ascending)
-├── tag2.html             # SOL - FA - RE - SI (descending)
+├── index.html            # dev-only landing page listing all 8 tags
+├── tag1.html … tag8.html   # one page per interval (see table above)
 ├── images/
-│   ├── tag1.svg            # DO-MI-SOL on a treble staff
-│   └── tag2.svg             # SOL-FA-RE-SI on a treble staff
-└── sounds/
-    ├── tag1.mp3             # piano: C4-E4-G4 ascending (DO-MI-SOL)
-    └── tag2.mp3              # piano: G4-F4-D4-B3 descending (SOL-FA-RE-SI)
+│   └── tag1.svg … tag8.svg  # each interval on a treble staff
+├── sounds/
+│   └── tag1.mp3 … tag8.mp3    # piano audio for each interval
+└── generator/               # scripts used to build the above (not needed
+    └── ...                    # for deployment — safe to omit from Pages)
 ```
 
 The mp3s are rendered from real MIDI note sequences through a piano
-soundfont (not synthetic beeps), so they sound like an actual piano playing
-those notes. Filenames match their tag (`tag1.mp3`, `tag2.mp3`) — if you
-add more tags, keep following that pattern.
+soundfont, so they sound like an actual piano playing those notes. The
+staff images use a hand-embedded vector treble clef (extracted from the
+open-source Noto Music font, SIL Open Font License) rather than relying on
+the viewing device having a font that supports the Unicode musical clef
+character — this is what fixes the "clef renders too big / gets cut off"
+issue some phones had, since the glyph is now baked into the SVG as plain
+path data with no font dependency at all.
+
+## The three-tap game mechanic
+
+1. **Tap 1 (or automatic)** — plays the two notes blind. The button shows a
+   play icon before this, and switches to an eye icon afterward.
+2. **Tap 2** — reveals the staff image and the note names (e.g. "DO · SOL").
+   The button switches to a next icon.
+3. **Tap 3** — jumps to a random *other* tag's page (never repeats the one
+   you're on), so you can keep testing your ear tag after tag without
+   picking up your phone again.
+
+Every tag's button is the same size, shape, and color at every stage — no
+color-coding by interval — so nothing about the button itself gives away
+which interval you're about to hear.
 
 ## 1. Deploy to GitHub Pages
 
-1. Create a new **public** GitHub repository (e.g. `nfc-sounds`).
-2. Upload all the files in this folder to the repo root, preserving the
-   `sounds/` subfolder — either via the GitHub web UI (drag and drop) or:
+1. Create a new **public** GitHub repository (e.g. `nfc-test`).
+2. Upload all files in this folder to the repo root, preserving the
+   `images/` and `sounds/` subfolders.
    ```bash
    cd nfc-site
    git init
    git add .
-   git commit -m "NFC sound tag demo"
+   git commit -m "NFC interval ear-training game"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/nfc-sounds.git
+   git remote add origin https://github.com/<your-username>/<repo>.git
    git push -u origin main
    ```
-3. In the repo, go to **Settings → Pages**.
-4. Under "Build and deployment", set **Source: Deploy from a branch**,
-   **Branch: main / (root)**, then Save.
-5. Wait ~1 minute. Your site will be live at:
+3. In the repo, go to **Settings → Pages** → Source: **Deploy from a
+   branch** → Branch: **main / (root)** → Save.
+4. Your site will be live at:
    ```
-   https://<your-username>.github.io/nfc-sounds/
+   https://<your-username>.github.io/<repo>/
    ```
-   with the two tag pages at:
-   ```
-   https://<your-username>.github.io/nfc-sounds/tag1.html
-   https://<your-username>.github.io/nfc-sounds/tag2.html
-   ```
+   with each tag page at `tag1.html` through `tag8.html`.
 
 ## 2. Write the URLs to your NFC tags
 
@@ -57,47 +87,31 @@ Using the free **NFC Tools** app (Android and iOS):
 
 1. Open NFC Tools → **Write** tab.
 2. **Add a record → URL/URI**.
-3. Enter `https://<your-username>.github.io/nfc-sounds/tag1.html`
-4. Tap **Write**, then hold your first NFC tag against the phone's NFC
-   antenna until it confirms.
-5. Repeat with `tag2.html` for your second tag.
-
-On iPhone you can alternatively use the **Shortcuts app** to write NFC tags
-directly (Automation → NFC → Scan), but writing a plain URL record via NFC
-Tools is more portable since it doesn't depend on Shortcuts being installed
-on whichever phone taps it later.
+3. Enter `https://<your-username>.github.io/<repo>/tagN.html` (N = 1-8).
+4. Tap **Write**, hold the tag to the phone until confirmed.
+5. Repeat for all 8 tags — each pointing to its own `tagN.html`.
+6. Before writing, make sure no **Android Application Record (AAR)** is
+   added — the write should contain only the plain URI record, so tags
+   open correctly in the browser on any phone, not just ones with a
+   specific app installed.
 
 ## 3. Test
 
-- Enable NFC on the test phone (Settings → Connected devices → NFC, on most
-  Android phones; iPhones with iOS 14+ read NFC automatically when the
-  camera/background tag reader is active, no app needed).
-- Tap the tag against the phone.
-- On modern Android, you'll likely see a system dialog first: **"Open link
-  found by NFC?"** — this is an OS-level anti-phishing prompt that no tag
-  content or webpage can suppress. Tap **Abrir enlace / Open link**.
-- The page opens showing only a play button — no notes revealed yet — and
-  immediately tries to play the sound blind. If that's blocked by the
-  browser's autoplay policy, tap the play button once to hear it.
-- Tap again (the button is now an eye icon) to reveal the notes on a staff
-  with their names.
+- Enable NFC on the test phone.
+- Tap a tag. On modern Android you'll likely see **"Open link found by
+  NFC?"** first — an OS-level anti-phishing prompt that can't be
+  suppressed by the tag or the page. Tap **Open link**.
+- The page tries to auto-play the sound; if blocked, tap once to hear it,
+  tap again to reveal, tap a third time to jump to another tag.
 
 ## Notes
 
-- **Why any tap at all?** Browsers require a user gesture before playing
-  audio with sound, to prevent sites from blasting sound uninvited. The NFC
-  tap itself doesn't always count as that gesture, so a tap on the page is
-  the reliable fallback across iOS Safari, Chrome, and other browsers.
-- **The two-tap game mechanic**: tap 1 plays the sound blind (or the page
-  auto-plays it, in which case tap 1 becomes the reveal instead); tap 2
-  reveals the staff image and note names. This is intentional — it's a
-  listen-first, look-second guessing game, not a bug.
-- **HTTPS is required** — GitHub Pages serves over HTTPS automatically, which
-  is also a requirement for autoplay to even be considered by some browsers.
-- **Swapping in real audio**: replace `sounds/tag1.mp3` and
-  `sounds/tag2.mp3` with your own files (any browser-supported format works:
-  mp3, m4a, ogg), keeping the same filenames, or edit the `<audio src="...">`
-  line in the corresponding tag*.html.
-- **Adding more tags**: duplicate `tag1.html` as `tag3.html`, change the title
-  and `sounds/....mp3` reference, add a new mp3, and write a tag pointing to
-  `tag3.html`.
+- **Why any tap at all (for playback)?** Browsers require a user gesture
+  before playing audio with sound. The auto-play attempt fires on load and
+  on visibility/focus changes, but if it's blocked, a tap on the page is
+  the reliable fallback — and it can never accidentally skip ahead to the
+  reveal or the next-tag jump, since only a genuine tap advances those
+  stages.
+- **Adding more intervals/tags**: add a new entry to the generator script's
+  interval list, regenerate, and every page's random-jump list will
+  automatically include the new tag.

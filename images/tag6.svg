@@ -9,7 +9,6 @@
 <line x1="194" y1="140.0" x2="226" y2="140.0" stroke="#e8e8ef" stroke-width="2"/>
 <line x1="218.5" y1="138.0" x2="218.5" y2="80.0" stroke="#4f7cff" stroke-width="2.5"/>
 <ellipse cx="210" cy="140.0" rx="10" ry="7.5" fill="#4f7cff" transform="rotate(-18 210 140.0)"/>
-<line x1="284" y1="140.0" x2="316" y2="140.0" stroke="#e8e8ef" stroke-width="2"/>
-<line x1="308.5" y1="138.0" x2="308.5" y2="80.0" stroke="#4f7cff" stroke-width="2.5"/>
-<ellipse cx="300" cy="140.0" rx="10" ry="7.5" fill="#4f7cff" transform="rotate(-18 300 140.0)"/>
+<line x1="308.5" y1="93.0" x2="308.5" y2="35.0" stroke="#4f7cff" stroke-width="2.5"/>
+<ellipse cx="300" cy="95.0" rx="10" ry="7.5" fill="#4f7cff" transform="rotate(-18 300 95.0)"/>
 </svg>

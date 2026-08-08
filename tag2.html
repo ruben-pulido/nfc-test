@@ -30,11 +30,10 @@
     display: flex; align-items: center; justify-content: center;
     color: white;
     box-shadow: 0 8px 28px rgba(79,124,255,0.4);
-    transition: transform 0.15s ease, opacity 0.3s ease, box-shadow 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
   .btn svg { width: 42px; height: 42px; }
   #tapzone.pressed .btn { transform: scale(0.92); }
-  .btn.hidden { opacity: 0; transform: scale(0.7); pointer-events: none; }
 
   .reveal {
     position: absolute;
@@ -42,6 +41,7 @@
     opacity: 0; transform: translateY(10px) scale(0.97);
     transition: opacity 0.45s ease, transform 0.45s ease;
     pointer-events: none;
+    top: 18%;
   }
   .reveal.visible { opacity: 1; transform: translateY(0) scale(1); }
   .reveal img { width: min(80vw, 440px); height: auto; }
@@ -59,15 +59,16 @@
     <div class="btn" id="btn">
       <svg id="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
       <svg id="icon-eye" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M12 5c-5.6 0-9.6 4.4-11 7 1.4 2.6 5.4 7 11 7s9.6-4.4 11-7c-1.4-2.6-5.4-7-11-7zm0 11.5A4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 0 1 0 9zm0-2A2.5 2.5 0 1 0 12 9.5a2.5 2.5 0 0 0 0 5z"/></svg>
+      <svg id="icon-next" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
     </div>
     <div class="reveal" id="reveal">
-      <img src="images/tag2.svg" alt="SOL - FA - RE - SI on a musical staff">
-      <p>SOL &middot; FA &middot; RE &middot; SI</p>
+      <img src="images/tag2.svg" alt="DO - RE on a musical staff">
+      <p>DO &middot; RE</p>
     </div>
   </div>
 
   <audio id="audio" src="sounds/tag2.mp3" preload="auto"></audio>
-  <!-- tag2.mp3 contains the piano notes SOL-FA-RE-SI (G4-F4-D4-B3) descending -->
+  <!-- tag2.mp3 contains the piano notes C4-D4 (DO-RE) -->
 
   <script>
     const audio = document.getElementById('audio');
@@ -75,10 +76,13 @@
     const btn = document.getElementById('btn');
     const iconPlay = document.getElementById('icon-play');
     const iconEye = document.getElementById('icon-eye');
+    const iconNext = document.getElementById('icon-next');
     const reveal = document.getElementById('reveal');
 
-    // stage 0 = not played yet (blind), 1 = played (waiting for reveal tap), 2 = revealed
+    // stage 0 = blind (not played), 1 = played (waiting for reveal tap),
+    // 2 = revealed (button is now "next" -> jumps to a random other tag)
     let stage = 0;
+    const OTHER_TAGS = [1, 3, 4, 5, 6, 7, 8]; // this tag's number excluded
 
     function markPlayed() {
       if (stage !== 0) return;
@@ -88,10 +92,8 @@
     }
 
     // Silent auto-play attempts: only ever advance stage 0 -> 1, never
-    // trigger the reveal. These fire on page load and whenever the page
-    // regains visibility/focus (e.g. after Android's NFC confirmation
-    // dialog is dismissed) — no explicit tap required if the browser
-    // allows it.
+    // trigger the reveal or navigation. Fire on load and whenever the
+    // page regains visibility/focus (e.g. after Android's NFC dialog).
     function attemptAutoPlay() {
       if (stage !== 0) return;
       audio.play().then(markPlayed).catch(() => {});
@@ -103,27 +105,30 @@
     window.addEventListener('pageshow', attemptAutoPlay);
     window.addEventListener('focus', attemptAutoPlay);
 
-    // A real, deliberate tap on the page drives the stage machine:
-    // stage 0 -> play the sound (blind); stage 1 -> reveal; stage 2+ -> replay.
+    function goToRandomTag() {
+      const next = OTHER_TAGS[Math.floor(Math.random() * OTHER_TAGS.length)];
+      window.location.href = `tag${next}.html`;
+    }
+
+    // A real, deliberate tap drives the stage machine:
+    // stage 0 -> play blind; stage 1 -> reveal; stage 2 -> jump to a random other tag.
     function handleTap() {
       if (stage === 0) {
         audio.currentTime = 0;
         audio.play().then(markPlayed).catch(() => {});
       } else if (stage === 1) {
         stage = 2;
-        btn.classList.add('hidden');
         reveal.classList.add('visible');
+        iconEye.style.display = 'none';
+        iconNext.style.display = '';
       } else {
-        audio.currentTime = 0;
-        audio.play();
+        goToRandomTag();
       }
     }
 
     zone.addEventListener('pointerdown', () => zone.classList.add('pressed'));
     zone.addEventListener('pointerup', () => zone.classList.remove('pressed'));
     zone.addEventListener('pointercancel', () => zone.classList.remove('pressed'));
-    // Only one gesture type triggers the stage machine, so a single
-    // physical tap can't accidentally fire twice (e.g. pointerup + click).
     zone.addEventListener('click', handleTap);
   </script>
 </body>

@@ -12,36 +12,42 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #f4f4f4;
   }
-  .wrap { text-align: center; padding: 32px; max-width: 420px; }
+  .wrap { text-align: center; padding: 32px; max-width: 440px; }
   h1 { font-size: 1.4rem; margin-bottom: 8px; }
-  p.sub { opacity: 0.6; margin-bottom: 32px; font-size: 0.9rem; }
+  p.sub { opacity: 0.6; margin-bottom: 24px; font-size: 0.9rem; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
   a.card {
     display: block;
     text-decoration: none;
     color: #f4f4f4;
     background: #1b1f2a;
-    border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 16px;
+    border-radius: 14px;
+    padding: 16px 8px;
     border: 1px solid #2a2f3d;
   }
   a.card:active { background: #23283a; }
-  .card .name { font-weight: 600; font-size: 1.05rem; }
-  .card .desc { font-size: 0.85rem; opacity: 0.55; margin-top: 4px; }
+  .card .name { font-weight: 600; font-size: 0.95rem; }
+  .card .desc { font-size: 0.78rem; opacity: 0.5; margin-top: 4px; }
 </style>
 </head>
 <body>
   <div class="wrap">
     <h1>NFC Sound Tags</h1>
-    <p class="sub">Test pages for programmable NFC tags. Each link below is what a tag should point to.</p>
-    <a class="card" href="tag1.html">
-      <div class="name">🎵 Tag 1 — DO · MI · SOL (ascending)</div>
-      <div class="desc">tag1.html</div>
-    </a>
-    <a class="card" href="tag2.html">
-      <div class="name">🎵 Tag 2 — SOL · FA · RE · SI (descending)</div>
-      <div class="desc">tag2.html</div>
-    </a>
+    <p class="sub">Test pages for programmable NFC tags — 8 ascending intervals from Do. Each link below is what a tag should point to.</p>
+    <div class="grid">
+      <a class="card" href="tag1.html"><div class="name">🎵 Tag 1 — Unison</div><div class="desc">tag1.html</div></a>
+      <a class="card" href="tag2.html"><div class="name">🎵 Tag 2 — 2nd</div><div class="desc">tag2.html</div></a>
+      <a class="card" href="tag3.html"><div class="name">🎵 Tag 3 — 3rd</div><div class="desc">tag3.html</div></a>
+      <a class="card" href="tag4.html"><div class="name">🎵 Tag 4 — 4th</div><div class="desc">tag4.html</div></a>
+      <a class="card" href="tag5.html"><div class="name">🎵 Tag 5 — 5th</div><div class="desc">tag5.html</div></a>
+      <a class="card" href="tag6.html"><div class="name">🎵 Tag 6 — 6th</div><div class="desc">tag6.html</div></a>
+      <a class="card" href="tag7.html"><div class="name">🎵 Tag 7 — 7th</div><div class="desc">tag7.html</div></a>
+      <a class="card" href="tag8.html"><div class="name">🎵 Tag 8 — Octave</div><div class="desc">tag8.html</div></a>
+    </div>
   </div>
 </body>
 </html>
