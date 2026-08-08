@@ -1,0 +1,18 @@
+<svg viewBox="0 0 630 260" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="630" height="260" fill="#10131a"/>
+<line x1="90" y1="50" x2="590" y2="50" stroke="#e8e8ef" stroke-width="2"/>
+<line x1="90" y1="68" x2="590" y2="68" stroke="#e8e8ef" stroke-width="2"/>
+<line x1="90" y1="86" x2="590" y2="86" stroke="#e8e8ef" stroke-width="2"/>
+<line x1="90" y1="104" x2="590" y2="104" stroke="#e8e8ef" stroke-width="2"/>
+<line x1="90" y1="122" x2="590" y2="122" stroke="#e8e8ef" stroke-width="2"/>
+<text x="112" y="128" font-family="serif" font-size="130" fill="#e8e8ef">&#119070;</text>
+<line x1="218.5" y1="102.0" x2="218.5" y2="44.0" stroke="#ff7a45" stroke-width="2.5"/>
+<ellipse cx="210" cy="104.0" rx="10" ry="7.5" fill="#ff7a45" transform="rotate(-18 210 104.0)"/>
+<line x1="308.5" y1="111.0" x2="308.5" y2="53.0" stroke="#ff7a45" stroke-width="2.5"/>
+<ellipse cx="300" cy="113.0" rx="10" ry="7.5" fill="#ff7a45" transform="rotate(-18 300 113.0)"/>
+<line x1="398.5" y1="129.0" x2="398.5" y2="71.0" stroke="#ff7a45" stroke-width="2.5"/>
+<ellipse cx="390" cy="131.0" rx="10" ry="7.5" fill="#ff7a45" transform="rotate(-18 390 131.0)"/>
+<line x1="464" y1="140.0" x2="496" y2="140.0" stroke="#e8e8ef" stroke-width="2"/>
+<line x1="488.5" y1="147.0" x2="488.5" y2="89.0" stroke="#ff7a45" stroke-width="2.5"/>
+<ellipse cx="480" cy="149.0" rx="10" ry="7.5" fill="#ff7a45" transform="rotate(-18 480 149.0)"/>
+</svg>

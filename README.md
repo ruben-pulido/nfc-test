@@ -1,25 +1,28 @@
 # NFC Sound Tags — Demo Site
 
-A minimal working example: two web pages, each auto-playing (or one-tap-playing)
-a different test sound. Point your NFC tags at these pages and tapping the tag
-with a phone opens the page and plays the sound.
+Two web pages, each a "guess the notes" mini-game: tapping the NFC tag opens
+the page, which plays a piano note sequence blind (no notes shown yet). A
+second tap on the page reveals the notes on a staff and their solfège names.
 
 ## What's inside
 
 ```
 nfc-site/
-├── index.html       # landing page listing both demo tags
-├── tag1.html         # "Doorbell" test tone
-├── tag2.html         # "Alarm" test tone
+├── index.html          # landing page listing both tags
+├── tag1.html            # DO - MI - SOL (ascending)
+├── tag2.html             # SOL - FA - RE - SI (descending)
+├── images/
+│   ├── tag1.svg            # DO-MI-SOL on a treble staff
+│   └── tag2.svg             # SOL-FA-RE-SI on a treble staff
 └── sounds/
-    ├── doorbell.mp3   # ~1s two-tone chime (generated test sound)
-    └── alarm.mp3      # ~1s triple-beep (generated test sound)
+    ├── tag1.mp3             # piano: C4-E4-G4 ascending (DO-MI-SOL)
+    └── tag2.mp3              # piano: G4-F4-D4-B3 descending (SOL-FA-RE-SI)
 ```
 
-These are synthetic test tones (generated, not copyrighted music) — swap them
-out for your own mp3 files once the pipeline is confirmed working. Just keep
-the filenames the same, or update the `src="sounds/....mp3"` line in each
-tag*.html file.
+The mp3s are rendered from real MIDI note sequences through a piano
+soundfont (not synthetic beeps), so they sound like an actual piano playing
+those notes. Filenames match their tag (`tag1.mp3`, `tag2.mp3`) — if you
+add more tags, keep following that pattern.
 
 ## 1. Deploy to GitHub Pages
 
@@ -73,25 +76,26 @@ on whichever phone taps it later.
 - On modern Android, you'll likely see a system dialog first: **"Open link
   found by NFC?"** — this is an OS-level anti-phishing prompt that no tag
   content or webpage can suppress. Tap **Abrir enlace / Open link**.
-- The browser opens the page and immediately tries to play the sound. If
-  it's still blocked by the browser's autoplay policy, the very next tap,
-  touch, or keypress **anywhere on the page** triggers it — the page
-  listens as early and as broadly as possible (including the moment the
-  page becomes visible again after a dialog), so in practice it's often a
-  single motion: dismiss the system dialog, sound plays.
+- The page opens showing only a play button — no notes revealed yet — and
+  immediately tries to play the sound blind. If that's blocked by the
+  browser's autoplay policy, tap the play button once to hear it.
+- Tap again (the button is now an eye icon) to reveal the notes on a staff
+  with their names.
 
 ## Notes
 
 - **Why any tap at all?** Browsers require a user gesture before playing
   audio with sound, to prevent sites from blasting sound uninvited. The NFC
   tap itself doesn't always count as that gesture, so a tap on the page is
-  the reliable fallback across iOS Safari, Chrome, and other browsers. The
-  whole screen is tappable (not just a small button) so it's effectively
-  one motion — tap the tag, tap the screen.
+  the reliable fallback across iOS Safari, Chrome, and other browsers.
+- **The two-tap game mechanic**: tap 1 plays the sound blind (or the page
+  auto-plays it, in which case tap 1 becomes the reveal instead); tap 2
+  reveals the staff image and note names. This is intentional — it's a
+  listen-first, look-second guessing game, not a bug.
 - **HTTPS is required** — GitHub Pages serves over HTTPS automatically, which
   is also a requirement for autoplay to even be considered by some browsers.
-- **Swapping in real audio**: replace `sounds/doorbell.mp3` and
-  `sounds/alarm.mp3` with your own files (any browser-supported format works:
+- **Swapping in real audio**: replace `sounds/tag1.mp3` and
+  `sounds/tag2.mp3` with your own files (any browser-supported format works:
   mp3, m4a, ogg), keeping the same filenames, or edit the `<audio src="...">`
   line in the corresponding tag*.html.
 - **Adding more tags**: duplicate `tag1.html` as `tag3.html`, change the title

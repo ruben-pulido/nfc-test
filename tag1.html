@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Doorbell Tag</title>
+<title>&#9834;</title>
 <style>
   :root { color-scheme: light dark; }
   html, body {
@@ -13,110 +13,118 @@
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior: none;
     touch-action: manipulation;
+    overflow: hidden;
   }
-  /* The entire viewport is the tap target */
   #tapzone {
+    position: relative;
     height: 100%; width: 100%;
-    display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     cursor: pointer;
     user-select: none;
-    transition: background 0.15s ease;
   }
-  #tapzone.pressed { background: #171c28; }
-  .card { text-align: center; padding: 40px 32px; color: #f4f4f4; pointer-events: none; }
-  .icon { font-size: 64px; margin-bottom: 8px; }
-  h1 { font-size: 1.3rem; font-weight: 600; margin: 0 0 24px; opacity: 0.9; }
-  .pill {
-    display: inline-block;
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 22px 48px;
-    border-radius: 999px;
+
+  .btn {
+    width: 110px; height: 110px;
+    border-radius: 50%;
     background: #4f7cff;
+    display: flex; align-items: center; justify-content: center;
     color: white;
-    box-shadow: 0 6px 20px rgba(79,124,255,0.4);
-    transition: background 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 8px 28px rgba(79,124,255,0.4);
+    transition: transform 0.15s ease, opacity 0.3s ease, box-shadow 0.15s ease;
   }
-  .pill.played { background: #2ecc71; box-shadow: 0 6px 20px rgba(46,204,113,0.4); }
-  p.hint { margin-top: 18px; font-size: 0.85rem; opacity: 0.5; }
+  .btn svg { width: 42px; height: 42px; }
+  #tapzone.pressed .btn { transform: scale(0.92); }
+  .btn.hidden { opacity: 0; transform: scale(0.7); pointer-events: none; }
+
+  .reveal {
+    position: absolute;
+    display: flex; flex-direction: column; align-items: center;
+    opacity: 0; transform: translateY(10px) scale(0.97);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+    pointer-events: none;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0) scale(1); }
+  .reveal img { width: min(80vw, 440px); height: auto; }
+  .reveal p {
+    margin: 14px 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #f4f4f4;
+  }
 </style>
 </head>
 <body>
   <div id="tapzone">
-    <div class="card">
-      <div class="icon">🔔</div>
-      <h1>Tag 1 &mdash; Doorbell Sound</h1>
-      <div class="pill" id="pill">▶ Tap Anywhere</div>
-      <p class="hint">This page was opened by an NFC tag tap</p>
+    <div class="btn" id="btn">
+      <svg id="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg id="icon-eye" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M12 5c-5.6 0-9.6 4.4-11 7 1.4 2.6 5.4 7 11 7s9.6-4.4 11-7c-1.4-2.6-5.4-7-11-7zm0 11.5A4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 0 1 0 9zm0-2A2.5 2.5 0 1 0 12 9.5a2.5 2.5 0 0 0 0 5z"/></svg>
+    </div>
+    <div class="reveal" id="reveal">
+      <img src="images/tag1.svg" alt="DO - MI - SOL on a musical staff">
+      <p>DO &middot; MI &middot; SOL</p>
     </div>
   </div>
 
-  <audio id="audio" src="sounds/doorbell.mp3" preload="auto"></audio>
+  <audio id="audio" src="sounds/tag1.mp3" preload="auto"></audio>
+  <!-- tag1.mp3 contains the piano notes DO-MI-SOL (C4-E4-G4) ascending -->
 
   <script>
     const audio = document.getElementById('audio');
-    const pill = document.getElementById('pill');
     const zone = document.getElementById('tapzone');
+    const btn = document.getElementById('btn');
+    const iconPlay = document.getElementById('icon-play');
+    const iconEye = document.getElementById('icon-eye');
+    const reveal = document.getElementById('reveal');
 
-    function showPlaying() {
-      pill.textContent = '🔊 Playing...';
-      pill.classList.add('played');
-      setTimeout(() => {
-        pill.textContent = '▶ Tap Anywhere';
-        pill.classList.remove('played');
-      }, 1200);
+    // stage 0 = not played yet (blind), 1 = played (waiting for reveal tap), 2 = revealed
+    let stage = 0;
+
+    function markPlayed() {
+      if (stage !== 0) return;
+      stage = 1;
+      iconPlay.style.display = 'none';
+      iconEye.style.display = '';
     }
 
-    let started = false;
-
-    function playSound() {
-      if (started) return;
-      audio.currentTime = 0;
-      audio.play().then(() => {
-        started = true;
-        showPlaying();
-      }).catch(() => {
-        // Still blocked — a later event will retry.
-      });
+    // Silent auto-play attempts: only ever advance stage 0 -> 1, never
+    // trigger the reveal. These fire on page load and whenever the page
+    // regains visibility/focus (e.g. after Android's NFC confirmation
+    // dialog is dismissed) — no explicit tap required if the browser
+    // allows it.
+    function attemptAutoPlay() {
+      if (stage !== 0) return;
+      audio.play().then(markPlayed).catch(() => {});
     }
-
-    // Attempt #1: fire the instant the script runs.
-    playSound();
-
-    // Attempt #2: retry whenever the page becomes visible/focused again —
-    // this covers the case where Android's "Open link found by NFC?"
-    // dialog was showing first and the page only becomes active after
-    // the user dismisses it, and also covers switching back from another
-    // app or the app-switcher.
+    attemptAutoPlay();
     document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') playSound();
+      if (document.visibilityState === 'visible') attemptAutoPlay();
     });
-    window.addEventListener('pageshow', playSound);
-    window.addEventListener('focus', playSound);
+    window.addEventListener('pageshow', attemptAutoPlay);
+    window.addEventListener('focus', attemptAutoPlay);
 
-    // Attempt #3: catch the very first user interaction anywhere on the
-    // page, as early in the event chain as possible (capture phase, on
-    // the document rather than a single element) so any tap, touch, or
-    // key press counts — not just a tap squarely on the tapzone.
-    ['pointerdown', 'touchstart', 'mousedown', 'keydown', 'click'].forEach(evt => {
-      document.addEventListener(evt, playSound, { capture: true, passive: true });
-    });
+    // A real, deliberate tap on the page drives the stage machine:
+    // stage 0 -> play the sound (blind); stage 1 -> reveal; stage 2+ -> replay.
+    function handleTap() {
+      if (stage === 0) {
+        audio.currentTime = 0;
+        audio.play().then(markPlayed).catch(() => {});
+      } else if (stage === 1) {
+        stage = 2;
+        btn.classList.add('hidden');
+        reveal.classList.add('visible');
+      } else {
+        audio.currentTime = 0;
+        audio.play();
+      }
+    }
 
-    // Visual press feedback on the tap zone (cosmetic only).
     zone.addEventListener('pointerdown', () => zone.classList.add('pressed'));
     zone.addEventListener('pointerup', () => zone.classList.remove('pressed'));
     zone.addEventListener('pointercancel', () => zone.classList.remove('pressed'));
-
-    // Manual tap on the zone always works too, and allows replaying
-    // after the first automatic play has already happened.
-    zone.addEventListener('pointerup', () => {
-      if (started) {
-        audio.currentTime = 0;
-        audio.play();
-        showPlaying();
-      }
-    });
+    // Only one gesture type triggers the stage machine, so a single
+    // physical tap can't accidentally fire twice (e.g. pointerup + click).
+    zone.addEventListener('click', handleTap);
   </script>
 </body>
 </html>
