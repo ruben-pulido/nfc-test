@@ -70,17 +70,24 @@ on whichever phone taps it later.
   Android phones; iPhones with iOS 14+ read NFC automatically when the
   camera/background tag reader is active, no app needed).
 - Tap the tag against the phone.
-- The browser should open the page. If sound doesn't start immediately
-  (autoplay can be blocked, especially on iOS Safari), tap the on-screen
-  **▶ Tap to Play** button once — it's a large button by design so a single
-  tap works reliably.
+- On modern Android, you'll likely see a system dialog first: **"Open link
+  found by NFC?"** — this is an OS-level anti-phishing prompt that no tag
+  content or webpage can suppress. Tap **Abrir enlace / Open link**.
+- The browser opens the page and immediately tries to play the sound. If
+  it's still blocked by the browser's autoplay policy, the very next tap,
+  touch, or keypress **anywhere on the page** triggers it — the page
+  listens as early and as broadly as possible (including the moment the
+  page becomes visible again after a dialog), so in practice it's often a
+  single motion: dismiss the system dialog, sound plays.
 
 ## Notes
 
-- **Why a button at all?** Browsers require a user gesture before playing
+- **Why any tap at all?** Browsers require a user gesture before playing
   audio with sound, to prevent sites from blasting sound uninvited. The NFC
-  tap itself doesn't always count, so the button is the reliable fallback
-  across iOS Safari, Chrome, and other browsers.
+  tap itself doesn't always count as that gesture, so a tap on the page is
+  the reliable fallback across iOS Safari, Chrome, and other browsers. The
+  whole screen is tappable (not just a small button) so it's effectively
+  one motion — tap the tag, tap the screen.
 - **HTTPS is required** — GitHub Pages serves over HTTPS automatically, which
   is also a requirement for autoplay to even be considered by some browsers.
 - **Swapping in real audio**: replace `sounds/doorbell.mp3` and
