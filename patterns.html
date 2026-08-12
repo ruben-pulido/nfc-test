@@ -132,6 +132,7 @@
     transition: max-height 0.45s ease, opacity 0.4s ease, margin-bottom 0.45s ease;
   }
   .reveal.visible { max-height: 55vh; opacity: 1; margin-bottom: 28px; }
+  .reveal.instant { transition: none !important; }
   .reveal img { width: min(80vw, 440px); max-height: 38vh; height: auto; }
   .reveal p {
     margin: 14px 0 0;
@@ -347,7 +348,16 @@
     iconPlay.style.display = "";
     iconEye.style.display = "none";
     iconNext.style.display = "none";
+
+    // Hide the reveal panel INSTANTLY (no transition) -- otherwise its
+    // normal 0.45s closing animation means the new pattern's image/label
+    // is still briefly visible while it shrinks away, giving away the
+    // answer before the user has even heard the new pattern.
+    reveal.classList.add("instant");
     reveal.classList.remove("visible");
+    void reveal.offsetHeight; // force reflow so "instant" takes effect now
+    reveal.classList.remove("instant");
+
     categoryTag.textContent = pattern.categoryLabel + (pattern.mode !== "intervals" ? " \u00b7 " + MODE_DISPLAY_NAMES[pattern.mode] : "");
     audio.src = pattern.audio;
     revealImg.src = pattern.image;
