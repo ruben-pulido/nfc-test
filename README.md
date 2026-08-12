@@ -6,7 +6,88 @@ followed by a second note). A second tap reveals both notes on a staff and
 their solfège names. A third tap jumps to a random other tag's page, so
 tapping through several tags in a row feels like a shuffled quiz.
 
-## The 8 intervals
+## MLT Tonal Patterns (all 7 tonalities)
+
+Beyond the 8 simple intervals, the site includes a practice app covering
+the full Music Learning Theory tonal pattern set across **7 tonalities**:
+Major (Ionian), Minor (Aeolian), Dorian, Phrygian, Lydian, Mixolydian, and
+Locrian. Tonic = C for major, tonic = A for minor.
+
+| Tonality | Tonic | Categories | Patterns |
+|---|---|---|---|
+| Major (Ionian) | DO (C) | Tonic, Dominant, Subdominant, Expanded, Cadential, Linear, Chromatic | 57 |
+| Minor (Aeolian) | LA (A) | Tonic, Dominant, Subdominant, Expanded, Cadential, Chromatic | 57 |
+| Dorian | RE | Tonic, Dominant, Subdominant, Expanded, Cadential, Linear | 53 |
+| Phrygian | MI | Tonic, Dominant, Subdominant, Expanded, Cadential, Linear | 53 |
+| Lydian | FA | Tonic, Dominant, Subdominant, Expanded, Cadential, Linear | 53 |
+| Mixolydian | SO | Tonic, Dominant, Subdominant, Expanded, Cadential, Linear | 53 |
+| Locrian | TI | Tonic, Dominant, Subdominant, Expanded, Cadential, Linear | 53 |
+| **Total** | | | **379** |
+
+Open **`patterns.html`** to use it: pick a tonality from the dropdown (or
+the original Intervals), optionally narrow to one or more categories, then
+Start.
+
+### Controls
+
+| Action | Effect |
+|---|---|
+| Tap anywhere / **Space** | Play blind &rarr; reveal &rarr; jump to a **random** pattern in your current selection |
+| **Right arrow** / **swipe right** | Jump to the **next** pattern in the selection, in a fixed sequential order |
+| **Left arrow** / **swipe left** | Jump to the **previous** pattern in the selection, sequentially |
+
+Sequential navigation always resets the new pattern to the blind state (so
+you still have to play-then-reveal each one) &mdash; it just controls *which*
+pattern comes next: predictable order (arrows/swipe) vs. shuffled
+(tap/space). Both can be mixed freely mid-session.
+
+### How the Dorian/Phrygian/Lydian/Mixolydian/Locrian patterns were built
+
+The two source documents only covered Major and Minor. For the other five
+tonalities, `generator/gen_modal_patterns.py` derives analogous pattern
+sets by reusing the *exact scale-degree shapes and documented directions*
+from the major document's Tonic/Dominant/Subdominant/Expanded/Cadential/
+Linear categories, and re-spelling them in each mode's own natural solfege
+syllables (e.g. major's tonic shape 1-3-5 becomes RE-FA-LA in Dorian,
+MI-SO-TI in Phrygian, and so on) &mdash; all diatonically correct
+automatically (Dorian/Phrygian tonic triads come out minor, Lydian/
+Mixolydian major, Locrian diminished, exactly as they should be).
+
+**Deliberately out of scope:** the Chromatic Intermediaries category isn't
+generated for these 5 modes, since it depends on each tonality's specific
+half-step locations (which chromatic neighbor tones make sense differs
+mode to mode) and doesn't transfer directly from the major set the way the
+purely-diatonic categories do.
+
+### How the audio/notation is generated
+
+`generator/patterns_data.py` transcribes every pattern from the two MLT
+source documents, including each transition's documented ascending/
+descending direction. `generator/solfege.py` turns a syllable sequence plus
+its directions into actual pitches: the first note lands in a fixed home
+octave (DO=C4 for major, LA=A3 for minor), and each subsequent note is
+placed in whichever octave is closest to the previous note **while still
+strictly obeying the documented direction** &mdash; this is what correctly
+distinguishes e.g. a "SO" that continues descending below the tonic from a
+"SO" that sits above it, using the same syllable both times.
+
+`generator/gen_staff_v3.py` renders the staff SVGs generically for any
+letter/octave/accidental combination (extending the original renderer,
+which only handled the plain diatonic notes needed for whole-tone
+intervals) &mdash; sharps and flats are drawn as a Unicode &#9839;/&#9837;
+glyph next to the notehead. `generator/gen_all_patterns.py` runs the whole
+pipeline for all 114 patterns and writes `patterns.json`, the manifest
+`patterns.html` reads at runtime.
+
+To regenerate after editing the pattern data:
+```bash
+cd generator
+python3 gen_all_patterns.py
+```
+(`gen_all_patterns.py` calls `gen_modal_patterns.py` internally for the 5
+derived tonalities, so one command regenerates everything.)
+
+## Original interval tags (tag1.html … tag8.html)
 
 | Tag | Notes | Interval |
 |-----|-------|----------|
@@ -26,14 +107,18 @@ between tags is how far the second note climbs.
 
 ```
 nfc-site/
-├── index.html            # dev-only landing page listing all 8 tags
-├── tag1.html … tag8.html   # one page per interval (see table above)
+├── index.html              # dev-only landing page linking everything below
+├── patterns.html            # practice app for all 114 MLT tonal patterns
+├── patterns.json             # manifest patterns.html reads (id/audio/image/label)
+├── tag1.html … tag8.html      # one page per simple ascending interval
 ├── images/
-│   └── tag1.svg … tag8.svg  # each interval on a treble staff
+│   ├── tag1.svg … tag8.svg      # each interval on a treble staff
+│   └── patterns/                 # one staff SVG per MLT pattern (114 files)
 ├── sounds/
-│   └── tag1.mp3 … tag8.mp3    # piano audio for each interval
-└── generator/               # scripts used to build the above (not needed
-    └── ...                    # for deployment — safe to omit from Pages)
+│   ├── tag1.mp3 … tag8.mp3      # piano audio for each interval
+│   └── patterns/                 # one mp3 per MLT pattern (114 files)
+└── generator/                # scripts used to build all of the above
+    └── ...                     # (not needed for deployment — safe to omit)
 ```
 
 The mp3s are rendered from real MIDI note sequences through a piano

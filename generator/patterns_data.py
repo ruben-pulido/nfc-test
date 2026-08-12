@@ -1,0 +1,151 @@
+"""
+Full pattern database transcribed from the two MLT source documents,
+tonic = C for major, tonic = A for minor.
+
+Each pattern is (category, [syllables], [directions]) where directions has
+length len(syllables)-1 and each entry is 'up' or 'down', taken directly
+from the source documents' bracketed arrow annotations -- this is what
+lets the pitch engine place octaves correctly (e.g. distinguishing a
+"SO" below the tonic from a "SO" above it).
+"""
+
+MAJOR_PATTERNS = [
+    ("tonic", ["DO","MI","SO"], ["up","up"]),
+    ("tonic", ["SO","MI","DO"], ["down","down"]),
+    ("tonic", ["DO","MI","DO"], ["up","down"]),
+    ("tonic", ["MI","SO","DO"], ["up","down"]),
+    ("tonic", ["SO","DO","MI"], ["down","up"]),
+    ("tonic", ["MI","DO","SO"], ["down","down"]),
+    ("tonic", ["DO","SO","MI"], ["up","down"]),
+    ("tonic", ["SO","DO","SO"], ["down","up"]),
+    ("tonic", ["DO","MI"], ["up"]),
+    ("tonic", ["MI","DO"], ["down"]),
+    ("tonic", ["DO","SO"], ["up"]),
+    ("tonic", ["SO","DO"], ["down"]),
+    ("tonic", ["MI","SO"], ["up"]),
+    ("tonic", ["SO","MI"], ["down"]),
+    ("tonic", ["DO","MI","SO","DO"], ["up","up","up"]),
+    ("tonic", ["SO","MI","DO","MI"], ["down","down","up"]),
+    ("tonic", ["MI","DO","MI","SO"], ["down","up","up"]),
+
+    ("dominant", ["SO","TI","RE"], ["up","up"]),
+    ("dominant", ["RE","TI","SO"], ["down","down"]),
+    ("dominant", ["TI","RE","SO"], ["up","down"]),
+    ("dominant", ["FA","RE","TI"], ["down","down"]),
+    ("dominant", ["TI","RE","FA"], ["up","up"]),
+    ("dominant", ["SO","FA","RE"], ["down","down"]),
+    ("dominant", ["RE","FA","TI"], ["up","down"]),
+    ("dominant", ["SO","TI"], ["up"]),
+    ("dominant", ["TI","SO"], ["down"]),
+    ("dominant", ["TI","RE"], ["up"]),
+    ("dominant", ["RE","TI"], ["down"]),
+    ("dominant", ["TI","FA"], ["up"]),
+    ("dominant", ["FA","TI"], ["down"]),
+    ("dominant", ["SO","FA","RE","TI"], ["down","down","down"]),
+    ("dominant", ["TI","RE","FA","SO"], ["up","up","up"]),
+    ("dominant", ["RE","TI","SO","FA"], ["down","down","down"]),
+
+    ("subdominant", ["FA","LA","DO"], ["up","up"]),
+    ("subdominant", ["DO","LA","FA"], ["down","down"]),
+    ("subdominant", ["LA","DO","FA"], ["up","down"]),
+    ("subdominant", ["FA","DO","LA"], ["down","up"]),
+    ("subdominant", ["DO","FA","LA"], ["up","up"]),
+    ("subdominant", ["LA","FA","DO"], ["down","down"]),
+    ("subdominant", ["FA","LA"], ["up"]),
+    ("subdominant", ["LA","FA"], ["down"]),
+    ("subdominant", ["LA","DO"], ["up"]),
+    ("subdominant", ["DO","LA"], ["down"]),
+    ("subdominant", ["FA","LA","DO","FA"], ["up","up","up"]),
+    ("subdominant", ["DO","LA","FA","LA"], ["down","down","up"]),
+
+    ("expanded", ["LA","DO","MI"], ["up","up"]),
+    ("expanded", ["MI","DO","LA"], ["down","down"]),
+    ("expanded", ["RE","FA","LA"], ["up","up"]),
+    ("expanded", ["LA","FA","RE"], ["down","down"]),
+
+    ("cadential", ["RE","TI","DO"], ["down","up"]),
+    ("cadential", ["SO","LA","SO"], ["up","down"]),
+
+    ("linear", ["DO","RE","MI"], ["up","up"]),
+    ("linear", ["FA","MI","RE","DO"], ["down","down","down"]),
+
+    ("chromatic", ["FI","SO"], ["up"]),
+    ("chromatic", ["RI","MI"], ["up"]),
+    ("chromatic", ["SI","LA"], ["up"]),
+    ("chromatic", ["TA","LA"], ["down"]),
+]
+
+MINOR_PATTERNS = [
+    ("tonic", ["LA","DO","MI"], ["up","up"]),
+    ("tonic", ["MI","DO","LA"], ["down","down"]),
+    ("tonic", ["LA","DO","LA"], ["up","down"]),
+    ("tonic", ["DO","MI","LA"], ["up","up"]),
+    ("tonic", ["MI","LA","DO"], ["down","up"]),
+    ("tonic", ["DO","LA","MI"], ["down","up"]),
+    ("tonic", ["LA","MI","DO"], ["up","down"]),
+    ("tonic", ["MI","LA","MI"], ["down","up"]),
+    ("tonic", ["LA","DO"], ["up"]),
+    ("tonic", ["DO","LA"], ["down"]),
+    ("tonic", ["LA","MI"], ["up"]),
+    ("tonic", ["MI","LA"], ["down"]),
+    ("tonic", ["DO","MI"], ["up"]),
+    ("tonic", ["MI","DO"], ["down"]),
+    ("tonic", ["LA","DO","MI","LA"], ["up","up","up"]),
+    ("tonic", ["MI","DO","LA","DO"], ["down","down","up"]),
+    ("tonic", ["DO","LA","DO","MI"], ["down","up","up"]),
+
+    ("dominant", ["MI","SI","TI"], ["up","up"]),
+    ("dominant", ["TI","SI","MI"], ["down","down"]),
+    ("dominant", ["SI","TI","MI"], ["up","down"]),
+    ("dominant", ["RE","TI","SI"], ["down","down"]),
+    ("dominant", ["SI","TI","RE"], ["up","up"]),
+    ("dominant", ["MI","RE","TI"], ["down","down"]),
+    ("dominant", ["TI","RE","SI"], ["up","down"]),
+    ("dominant", ["MI","SI"], ["up"]),
+    ("dominant", ["SI","MI"], ["down"]),
+    ("dominant", ["SI","TI"], ["up"]),
+    ("dominant", ["TI","SI"], ["down"]),
+    ("dominant", ["SI","RE"], ["up"]),
+    ("dominant", ["RE","SI"], ["down"]),
+    ("dominant", ["MI","RE","TI","SI"], ["down","down","down"]),
+    ("dominant", ["SI","TI","RE","MI"], ["up","up","up"]),
+    ("dominant", ["TI","SI","MI","RE"], ["down","down","down"]),
+
+    ("subdominant", ["RE","FA","LA"], ["up","up"]),
+    ("subdominant", ["LA","FA","RE"], ["down","down"]),
+    ("subdominant", ["FA","LA","RE"], ["up","up"]),
+    ("subdominant", ["RE","LA","FA"], ["up","down"]),
+    ("subdominant", ["LA","RE","FA"], ["down","up"]),
+    ("subdominant", ["FA","RE","LA"], ["down","up"]),
+    ("subdominant", ["RE","FA"], ["up"]),
+    ("subdominant", ["FA","RE"], ["down"]),
+    ("subdominant", ["FA","LA"], ["up"]),
+    ("subdominant", ["LA","FA"], ["down"]),
+    ("subdominant", ["RE","FA","LA","RE"], ["up","up","up"]),
+    ("subdominant", ["LA","FA","RE","FA"], ["down","down","up"]),
+
+    ("expanded", ["FA","LA","DO"], ["up","up"]),
+    ("expanded", ["DO","LA","FA"], ["down","down"]),
+    ("expanded", ["SO","TI","RE"], ["up","up"]),
+    ("expanded", ["RE","TI","SO"], ["down","down"]),
+
+    ("cadential", ["LA","TI","DO"], ["up","up"]),
+    ("cadential", ["RE","DO","TI","LA"], ["down","down","down"]),
+    ("cadential", ["RE","SI","LA"], ["down","up"]),
+    ("cadential", ["MI","FA","MI"], ["up","down"]),
+    ("cadential", ["MI","FI","SI","LA"], ["up","up","up"]),
+
+    ("chromatic", ["RI","MI"], ["up"]),
+    ("chromatic", ["DI","RE"], ["up"]),
+    ("chromatic", ["TE","LA"], ["down"]),
+]
+
+CATEGORY_LABELS = {
+    "tonic": "Tonic",
+    "dominant": "Dominant",
+    "subdominant": "Subdominant",
+    "expanded": "Expanded Functions",
+    "cadential": "Cadential Intermediaries",
+    "linear": "Linear Intermediaries",
+    "chromatic": "Chromatic Intermediaries",
+}

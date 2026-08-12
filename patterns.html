@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>MLT Patterns</title>
+<style>
+  :root { color-scheme: light dark; }
+  html, body {
+    height: 100%; margin: 0;
+    background: #10131a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+    color: #f4f4f4;
+  }
+  #app { height: 100%; width: 100%; }
+
+  /* ---------- Selector screen ---------- */
+  #selector {
+    height: 100%; width: 100%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 24px; box-sizing: border-box;
+  }
+  #selector.hidden { display: none; }
+  #selector h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  #selector p.sub { opacity: 0.55; font-size: 0.85rem; margin: 0 0 28px; text-align: center; }
+
+  .select-wrap { margin-bottom: 20px; }
+  #modeSelect {
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 1px solid #2a2f3d;
+    background: #1b1f2a;
+    color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: 600;
+    appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    text-align-last: center;
+    min-width: 200px;
+    cursor: pointer;
+  }
+
+  #categoryList {
+    display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
+    max-width: 360px; margin-bottom: 32px;
+  }
+  .cat-chip {
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid #2a2f3d;
+    background: #1b1f2a;
+    color: #d5d7de;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+  .cat-chip.active {
+    background: #4f7cff;
+    border-color: #4f7cff;
+    color: white;
+  }
+
+  #startBtn {
+    padding: 14px 40px;
+    border-radius: 999px;
+    border: none;
+    background: #4f7cff;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(79,124,255,0.35);
+  }
+  #startBtn:disabled { opacity: 0.4; box-shadow: none; }
+  #countHint { margin-top: 12px; font-size: 0.78rem; opacity: 0.45; }
+
+  /* ---------- Practice screen ---------- */
+  #practice {
+    height: 100%; width: 100%;
+    display: none;
+    position: relative;
+  }
+  #practice.active { display: block; }
+
+  #backBtn {
+    position: absolute; top: 18px; left: 18px;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: #1b1f2a;
+    border: 1px solid #2a2f3d;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    z-index: 5;
+  }
+  #backBtn svg { width: 20px; height: 20px; fill: #d5d7de; }
+
+  #categoryTag {
+    position: absolute; top: 26px; left: 68px;
+    font-size: 0.78rem; opacity: 0.5; letter-spacing: 0.03em;
+    z-index: 5;
+  }
+
+  #tapzone {
+    position: relative;
+    height: 100%; width: 100%;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+  }
+
+  .stage { display: flex; flex-direction: column; align-items: center; }
+
+  .btn {
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    background: #4f7cff;
+    display: flex; align-items: center; justify-content: center;
+    color: white;
+    box-shadow: 0 8px 28px rgba(79,124,255,0.4);
+    transition: transform 0.15s ease;
+  }
+  .btn svg { width: 42px; height: 42px; }
+  #tapzone.pressed .btn { transform: scale(0.92); }
+
+  .reveal {
+    display: flex; flex-direction: column; align-items: center;
+    max-height: 0; opacity: 0; margin-bottom: 0;
+    overflow: hidden;
+    transition: max-height 0.45s ease, opacity 0.4s ease, margin-bottom 0.45s ease;
+  }
+  .reveal.visible { max-height: 55vh; opacity: 1; margin-bottom: 28px; }
+  .reveal img { width: min(80vw, 440px); max-height: 38vh; height: auto; }
+  .reveal p {
+    margin: 14px 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #f4f4f4;
+  }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <div id="selector">
+    <h1>MLT Tonal Patterns</h1>
+    <p class="sub">Choose a mode and category, then listen blind and guess the pattern.</p>
+
+    <div class="select-wrap">
+      <select id="modeSelect">
+        <option value="major">Major (Ionian)</option>
+        <option value="minor">Minor (Aeolian)</option>
+        <option value="dorian">Dorian</option>
+        <option value="phrygian">Phrygian</option>
+        <option value="lydian">Lydian</option>
+        <option value="mixolydian">Mixolydian</option>
+        <option value="locrian">Locrian</option>
+        <option value="intervals">Intervals</option>
+      </select>
+    </div>
+
+    <div id="categoryList"></div>
+
+    <button id="startBtn">Start</button>
+    <div id="countHint"></div>
+  </div>
+
+  <div id="practice">
+    <div id="backBtn">
+      <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+    </div>
+    <div id="categoryTag"></div>
+    <div id="tapzone">
+      <div class="stage">
+        <div class="reveal" id="reveal">
+          <img id="revealImg" src="" alt="">
+          <p id="revealLabel"></p>
+        </div>
+        <div class="btn" id="btn">
+          <svg id="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          <svg id="icon-eye" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M12 5c-5.6 0-9.6 4.4-11 7 1.4 2.6 5.4 7 11 7s9.6-4.4 11-7c-1.4-2.6-5.4-7-11-7zm0 11.5A4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 0 1 0 9zm0-2A2.5 2.5 0 1 0 12 9.5a2.5 2.5 0 0 0 0 5z"/></svg>
+          <svg id="icon-next" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+        </div>
+      </div>
+    </div>
+    <audio id="audio" preload="auto"></audio>
+  </div>
+
+</div>
+
+<script>
+  // ---------- Data ----------
+  // Intervals reuse the existing 8 tag pages' sounds/images (unison..octave).
+  const INTERVAL_PATTERNS = [
+    { id: "interval_1", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 DO", image: "images/tag1.svg", audio: "sounds/tag1.mp3" },
+    { id: "interval_2", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 RE", image: "images/tag2.svg", audio: "sounds/tag2.mp3" },
+    { id: "interval_3", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 MI", image: "images/tag3.svg", audio: "sounds/tag3.mp3" },
+    { id: "interval_4", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 FA", image: "images/tag4.svg", audio: "sounds/tag4.mp3" },
+    { id: "interval_5", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 SOL", image: "images/tag5.svg", audio: "sounds/tag5.mp3" },
+    { id: "interval_6", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 LA", image: "images/tag6.svg", audio: "sounds/tag6.mp3" },
+    { id: "interval_7", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 SI", image: "images/tag7.svg", audio: "sounds/tag7.mp3" },
+    { id: "interval_8", mode: "intervals", category: "intervals", categoryLabel: "Intervals",
+      label: "DO \u00b7 DO", image: "images/tag8.svg", audio: "sounds/tag8.mp3" },
+  ];
+
+  let ALL_PATTERNS = [];
+  let selectedMode = "major";
+  let selectedCategories = new Set(); // empty = all categories for the mode
+
+  const CATEGORY_ORDER = ["tonic","dominant","subdominant","expanded","cadential","linear","chromatic"];
+
+  fetch("patterns.json")
+    .then(r => r.json())
+    .then(data => {
+      ALL_PATTERNS = data.concat(INTERVAL_PATTERNS);
+      renderCategoryChips();
+      updateCountHint();
+    });
+
+  // ---------- Selector screen logic ----------
+  const modeSelect = document.getElementById("modeSelect");
+  const categoryList = document.getElementById("categoryList");
+  const startBtn = document.getElementById("startBtn");
+  const countHint = document.getElementById("countHint");
+
+  const MODE_DISPLAY_NAMES = {
+    major: "Major", minor: "Minor", dorian: "Dorian", phrygian: "Phrygian",
+    lydian: "Lydian", mixolydian: "Mixolydian", locrian: "Locrian",
+    intervals: "Intervals",
+  };
+
+  modeSelect.addEventListener("change", () => {
+    selectedMode = modeSelect.value;
+    selectedCategories = new Set();
+    renderCategoryChips();
+    updateCountHint();
+  });
+
+  function categoriesForMode(mode) {
+    if (mode === "intervals") return [];
+    const present = new Set(ALL_PATTERNS.filter(p => p.mode === mode).map(p => p.category));
+    return CATEGORY_ORDER.filter(c => present.has(c));
+  }
+
+  function categoryLabel(cat) {
+    const found = ALL_PATTERNS.find(p => p.category === cat);
+    return found ? found.categoryLabel : cat;
+  }
+
+  function renderCategoryChips() {
+    categoryList.innerHTML = "";
+    const cats = categoriesForMode(selectedMode);
+    if (cats.length === 0) return; // intervals mode: no category chips
+    const allChip = document.createElement("div");
+    allChip.className = "cat-chip active";
+    allChip.textContent = "All";
+    allChip.dataset.cat = "__all__";
+    categoryList.appendChild(allChip);
+    cats.forEach(cat => {
+      const chip = document.createElement("div");
+      chip.className = "cat-chip";
+      chip.textContent = categoryLabel(cat);
+      chip.dataset.cat = cat;
+      categoryList.appendChild(chip);
+    });
+  }
+
+  categoryList.addEventListener("click", (e) => {
+    const chip = e.target.closest(".cat-chip");
+    if (!chip) return;
+    if (chip.dataset.cat === "__all__") {
+      selectedCategories = new Set();
+      [...categoryList.children].forEach(c => c.classList.toggle("active", c === chip));
+    } else {
+      chip.classList.toggle("active");
+      categoryList.querySelector('[data-cat="__all__"]').classList.remove("active");
+      selectedCategories = new Set(
+        [...categoryList.children]
+          .filter(c => c.classList.contains("active") && c.dataset.cat !== "__all__")
+          .map(c => c.dataset.cat)
+      );
+      if (selectedCategories.size === 0) {
+        categoryList.querySelector('[data-cat="__all__"]').classList.add("active");
+      }
+    }
+    updateCountHint();
+  });
+
+  function currentPool() {
+    return ALL_PATTERNS.filter(p => {
+      if (p.mode !== selectedMode) return false;
+      if (selectedMode === "intervals") return true;
+      if (selectedCategories.size === 0) return true;
+      return selectedCategories.has(p.category);
+    });
+  }
+
+  function updateCountHint() {
+    const n = currentPool().length;
+    countHint.textContent = n + (n === 1 ? " pattern" : " patterns") + " in this selection";
+    startBtn.disabled = n === 0;
+  }
+
+  startBtn.addEventListener("click", () => {
+    const pool = currentPool();
+    if (pool.length === 0) return;
+    startPractice(pool[Math.floor(Math.random() * pool.length)]);
+  });
+
+  // ---------- Practice screen logic ----------
+  const selectorEl = document.getElementById("selector");
+  const practiceEl = document.getElementById("practice");
+  const backBtn = document.getElementById("backBtn");
+  const categoryTag = document.getElementById("categoryTag");
+  const zone = document.getElementById("tapzone");
+  const btn = document.getElementById("btn");
+  const iconPlay = document.getElementById("icon-play");
+  const iconEye = document.getElementById("icon-eye");
+  const iconNext = document.getElementById("icon-next");
+  const reveal = document.getElementById("reveal");
+  const revealImg = document.getElementById("revealImg");
+  const revealLabel = document.getElementById("revealLabel");
+  const audio = document.getElementById("audio");
+
+  let stage = 0; // 0 blind, 1 played, 2 revealed
+  let currentPattern = null;
+
+  function startPractice(pattern) {
+    selectorEl.classList.add("hidden");
+    practiceEl.classList.add("active");
+    loadPattern(pattern);
+  }
+
+  function loadPattern(pattern) {
+    currentPattern = pattern;
+    stage = 0;
+    iconPlay.style.display = "";
+    iconEye.style.display = "none";
+    iconNext.style.display = "none";
+    reveal.classList.remove("visible");
+    categoryTag.textContent = pattern.categoryLabel + (pattern.mode !== "intervals" ? " \u00b7 " + MODE_DISPLAY_NAMES[pattern.mode] : "");
+    audio.src = pattern.audio;
+    revealImg.src = pattern.image;
+    revealImg.alt = pattern.label + " on a musical staff";
+    revealLabel.textContent = pattern.label;
+    attemptAutoPlay();
+  }
+
+  function markPlayed() {
+    if (stage !== 0) return;
+    stage = 1;
+    iconPlay.style.display = "none";
+    iconEye.style.display = "";
+  }
+
+  function attemptAutoPlay() {
+    if (stage !== 0) return;
+    audio.play().then(markPlayed).catch(() => {});
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") attemptAutoPlay();
+  });
+  window.addEventListener("pageshow", attemptAutoPlay);
+  window.addEventListener("focus", attemptAutoPlay);
+
+  function goToRandomPattern() {
+    const pool = currentPool().filter(p => p.id !== currentPattern.id);
+    const source = pool.length > 0 ? pool : currentPool();
+    loadPattern(source[Math.floor(Math.random() * source.length)]);
+  }
+
+  // Sequential navigation (arrow keys / swipe): moves to the next/previous
+  // pattern in the current filtered pool's fixed order, wrapping around.
+  // Unlike the random "next" (tap/space), this always goes to a
+  // predictable neighbor, useful for working through a category in order.
+  function goSequential(delta) {
+    const pool = currentPool();
+    if (pool.length === 0) return;
+    let idx = pool.findIndex(p => p.id === currentPattern.id);
+    if (idx === -1) idx = 0;
+    idx = (idx + delta + pool.length) % pool.length;
+    loadPattern(pool[idx]);
+  }
+
+  function handleTap() {
+    if (stage === 0) {
+      audio.currentTime = 0;
+      audio.play().then(markPlayed).catch(() => {});
+    } else if (stage === 1) {
+      stage = 2;
+      reveal.classList.add("visible");
+      iconEye.style.display = "none";
+      iconNext.style.display = "";
+    } else {
+      goToRandomPattern();
+    }
+  }
+
+  zone.addEventListener("pointerdown", () => zone.classList.add("pressed"));
+  zone.addEventListener("pointerup", () => zone.classList.remove("pressed"));
+  zone.addEventListener("pointercancel", () => zone.classList.remove("pressed"));
+
+  let suppressNextClick = false;
+  zone.addEventListener("click", () => {
+    if (suppressNextClick) {
+      suppressNextClick = false;
+      return;
+    }
+    handleTap();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (!practiceEl.classList.contains("active")) return;
+    if (e.code === "Space" || e.key === " ") {
+      e.preventDefault();
+      handleTap();
+    } else if (e.code === "ArrowRight") {
+      e.preventDefault();
+      goSequential(1);
+    } else if (e.code === "ArrowLeft") {
+      e.preventDefault();
+      goSequential(-1);
+    }
+  });
+
+  // Swipe left/right on the phone = sequential navigation, same as the
+  // arrow keys. Swipe right -> next pattern (mirrors ArrowRight); swipe
+  // left -> previous (mirrors ArrowLeft). A plain tap (no significant
+  // horizontal movement) is left alone and falls through to the normal
+  // click handler above.
+  let touchStartX = null, touchStartY = null;
+  zone.addEventListener("touchstart", (e) => {
+    const t = e.changedTouches[0];
+    touchStartX = t.clientX;
+    touchStartY = t.clientY;
+  }, { passive: true });
+
+  zone.addEventListener("touchend", (e) => {
+    if (touchStartX === null) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touchStartX;
+    const dy = t.clientY - touchStartY;
+    touchStartX = null;
+    touchStartY = null;
+    const SWIPE_THRESHOLD = 60;
+    if (Math.abs(dx) > SWIPE_THRESHOLD && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      suppressNextClick = true; // this was a swipe, not a tap
+      goSequential(dx > 0 ? 1 : -1);
+    }
+  }, { passive: true });
+
+  backBtn.addEventListener("click", () => {
+    audio.pause();
+    practiceEl.classList.remove("active");
+    selectorEl.classList.remove("hidden");
+  });
+</script>
+</body>
+</html>

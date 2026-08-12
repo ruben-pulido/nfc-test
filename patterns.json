@@ -1,0 +1,5253 @@
+[
+  {
+    "id": "major_tonic_01",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/major_tonic_01.svg",
+    "audio": "sounds/patterns/major_tonic_01.mp3"
+  },
+  {
+    "id": "major_tonic_02",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/major_tonic_02.svg",
+    "audio": "sounds/patterns/major_tonic_02.mp3"
+  },
+  {
+    "id": "major_tonic_03",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "MI",
+      "DO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/major_tonic_03.svg",
+    "audio": "sounds/patterns/major_tonic_03.mp3"
+  },
+  {
+    "id": "major_tonic_04",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "SO",
+      "DO"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 DO",
+    "image": "images/patterns/major_tonic_04.svg",
+    "audio": "sounds/patterns/major_tonic_04.mp3"
+  },
+  {
+    "id": "major_tonic_05",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "DO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/major_tonic_05.svg",
+    "audio": "sounds/patterns/major_tonic_05.mp3"
+  },
+  {
+    "id": "major_tonic_06",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "DO",
+      "SO"
+    ],
+    "label": "MI \u00b7 DO \u00b7 SOL",
+    "image": "images/patterns/major_tonic_06.svg",
+    "audio": "sounds/patterns/major_tonic_06.mp3"
+  },
+  {
+    "id": "major_tonic_07",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "SO",
+      "MI"
+    ],
+    "label": "DO \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/major_tonic_07.svg",
+    "audio": "sounds/patterns/major_tonic_07.mp3"
+  },
+  {
+    "id": "major_tonic_08",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "DO",
+      "SO"
+    ],
+    "label": "SOL \u00b7 DO \u00b7 SOL",
+    "image": "images/patterns/major_tonic_08.svg",
+    "audio": "sounds/patterns/major_tonic_08.mp3"
+  },
+  {
+    "id": "major_tonic_09",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 MI",
+    "image": "images/patterns/major_tonic_09.svg",
+    "audio": "sounds/patterns/major_tonic_09.mp3"
+  },
+  {
+    "id": "major_tonic_10",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO",
+    "image": "images/patterns/major_tonic_10.svg",
+    "audio": "sounds/patterns/major_tonic_10.mp3"
+  },
+  {
+    "id": "major_tonic_11",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "SO"
+    ],
+    "label": "DO \u00b7 SOL",
+    "image": "images/patterns/major_tonic_11.svg",
+    "audio": "sounds/patterns/major_tonic_11.mp3"
+  },
+  {
+    "id": "major_tonic_12",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "DO"
+    ],
+    "label": "SOL \u00b7 DO",
+    "image": "images/patterns/major_tonic_12.svg",
+    "audio": "sounds/patterns/major_tonic_12.mp3"
+  },
+  {
+    "id": "major_tonic_13",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "SO"
+    ],
+    "label": "MI \u00b7 SOL",
+    "image": "images/patterns/major_tonic_13.svg",
+    "audio": "sounds/patterns/major_tonic_13.mp3"
+  },
+  {
+    "id": "major_tonic_14",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI",
+    "image": "images/patterns/major_tonic_14.svg",
+    "audio": "sounds/patterns/major_tonic_14.mp3"
+  },
+  {
+    "id": "major_tonic_15",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO",
+      "DO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL \u00b7 DO",
+    "image": "images/patterns/major_tonic_15.svg",
+    "audio": "sounds/patterns/major_tonic_15.mp3"
+  },
+  {
+    "id": "major_tonic_16",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/major_tonic_16.svg",
+    "audio": "sounds/patterns/major_tonic_16.mp3"
+  },
+  {
+    "id": "major_tonic_17",
+    "mode": "major",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "MI \u00b7 DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/major_tonic_17.svg",
+    "audio": "sounds/patterns/major_tonic_17.mp3"
+  },
+  {
+    "id": "major_dominant_01",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/major_dominant_01.svg",
+    "audio": "sounds/patterns/major_dominant_01.mp3"
+  },
+  {
+    "id": "major_dominant_02",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/major_dominant_02.svg",
+    "audio": "sounds/patterns/major_dominant_02.mp3"
+  },
+  {
+    "id": "major_dominant_03",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "SO"
+    ],
+    "label": "TI \u00b7 RE \u00b7 SOL",
+    "image": "images/patterns/major_dominant_03.svg",
+    "audio": "sounds/patterns/major_dominant_03.mp3"
+  },
+  {
+    "id": "major_dominant_04",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/major_dominant_04.svg",
+    "audio": "sounds/patterns/major_dominant_04.mp3"
+  },
+  {
+    "id": "major_dominant_05",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/major_dominant_05.svg",
+    "audio": "sounds/patterns/major_dominant_05.mp3"
+  },
+  {
+    "id": "major_dominant_06",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "FA",
+      "RE"
+    ],
+    "label": "SOL \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/major_dominant_06.svg",
+    "audio": "sounds/patterns/major_dominant_06.mp3"
+  },
+  {
+    "id": "major_dominant_07",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "TI"
+    ],
+    "label": "RE \u00b7 FA \u00b7 TI",
+    "image": "images/patterns/major_dominant_07.svg",
+    "audio": "sounds/patterns/major_dominant_07.mp3"
+  },
+  {
+    "id": "major_dominant_08",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 TI",
+    "image": "images/patterns/major_dominant_08.svg",
+    "audio": "sounds/patterns/major_dominant_08.mp3"
+  },
+  {
+    "id": "major_dominant_09",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL",
+    "image": "images/patterns/major_dominant_09.svg",
+    "audio": "sounds/patterns/major_dominant_09.mp3"
+  },
+  {
+    "id": "major_dominant_10",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 RE",
+    "image": "images/patterns/major_dominant_10.svg",
+    "audio": "sounds/patterns/major_dominant_10.mp3"
+  },
+  {
+    "id": "major_dominant_11",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI",
+    "image": "images/patterns/major_dominant_11.svg",
+    "audio": "sounds/patterns/major_dominant_11.mp3"
+  },
+  {
+    "id": "major_dominant_12",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "FA"
+    ],
+    "label": "TI \u00b7 FA",
+    "image": "images/patterns/major_dominant_12.svg",
+    "audio": "sounds/patterns/major_dominant_12.mp3"
+  },
+  {
+    "id": "major_dominant_13",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "TI"
+    ],
+    "label": "FA \u00b7 TI",
+    "image": "images/patterns/major_dominant_13.svg",
+    "audio": "sounds/patterns/major_dominant_13.mp3"
+  },
+  {
+    "id": "major_dominant_14",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "FA",
+      "RE",
+      "TI"
+    ],
+    "label": "SOL \u00b7 FA \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/major_dominant_14.svg",
+    "audio": "sounds/patterns/major_dominant_14.mp3"
+  },
+  {
+    "id": "major_dominant_15",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA",
+      "SO"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA \u00b7 SOL",
+    "image": "images/patterns/major_dominant_15.svg",
+    "audio": "sounds/patterns/major_dominant_15.mp3"
+  },
+  {
+    "id": "major_dominant_16",
+    "mode": "major",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO",
+      "FA"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL \u00b7 FA",
+    "image": "images/patterns/major_dominant_16.svg",
+    "audio": "sounds/patterns/major_dominant_16.mp3"
+  },
+  {
+    "id": "major_subdominant_01",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/major_subdominant_01.svg",
+    "audio": "sounds/patterns/major_subdominant_01.mp3"
+  },
+  {
+    "id": "major_subdominant_02",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/major_subdominant_02.svg",
+    "audio": "sounds/patterns/major_subdominant_02.mp3"
+  },
+  {
+    "id": "major_subdominant_03",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "FA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 FA",
+    "image": "images/patterns/major_subdominant_03.svg",
+    "audio": "sounds/patterns/major_subdominant_03.mp3"
+  },
+  {
+    "id": "major_subdominant_04",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "DO",
+      "LA"
+    ],
+    "label": "FA \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/major_subdominant_04.svg",
+    "audio": "sounds/patterns/major_subdominant_04.mp3"
+  },
+  {
+    "id": "major_subdominant_05",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "FA",
+      "LA"
+    ],
+    "label": "DO \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/major_subdominant_05.svg",
+    "audio": "sounds/patterns/major_subdominant_05.mp3"
+  },
+  {
+    "id": "major_subdominant_06",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "FA",
+      "DO"
+    ],
+    "label": "LA \u00b7 FA \u00b7 DO",
+    "image": "images/patterns/major_subdominant_06.svg",
+    "audio": "sounds/patterns/major_subdominant_06.mp3"
+  },
+  {
+    "id": "major_subdominant_07",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 LA",
+    "image": "images/patterns/major_subdominant_07.svg",
+    "audio": "sounds/patterns/major_subdominant_07.mp3"
+  },
+  {
+    "id": "major_subdominant_08",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA",
+    "image": "images/patterns/major_subdominant_08.svg",
+    "audio": "sounds/patterns/major_subdominant_08.mp3"
+  },
+  {
+    "id": "major_subdominant_09",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 DO",
+    "image": "images/patterns/major_subdominant_09.svg",
+    "audio": "sounds/patterns/major_subdominant_09.mp3"
+  },
+  {
+    "id": "major_subdominant_10",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA",
+    "image": "images/patterns/major_subdominant_10.svg",
+    "audio": "sounds/patterns/major_subdominant_10.mp3"
+  },
+  {
+    "id": "major_subdominant_11",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO",
+      "FA"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO \u00b7 FA",
+    "image": "images/patterns/major_subdominant_11.svg",
+    "audio": "sounds/patterns/major_subdominant_11.mp3"
+  },
+  {
+    "id": "major_subdominant_12",
+    "mode": "major",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/major_subdominant_12.svg",
+    "audio": "sounds/patterns/major_subdominant_12.mp3"
+  },
+  {
+    "id": "major_expanded_01",
+    "mode": "major",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/major_expanded_01.svg",
+    "audio": "sounds/patterns/major_expanded_01.mp3"
+  },
+  {
+    "id": "major_expanded_02",
+    "mode": "major",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/major_expanded_02.svg",
+    "audio": "sounds/patterns/major_expanded_02.mp3"
+  },
+  {
+    "id": "major_expanded_03",
+    "mode": "major",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/major_expanded_03.svg",
+    "audio": "sounds/patterns/major_expanded_03.mp3"
+  },
+  {
+    "id": "major_expanded_04",
+    "mode": "major",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/major_expanded_04.svg",
+    "audio": "sounds/patterns/major_expanded_04.mp3"
+  },
+  {
+    "id": "major_cadential_01",
+    "mode": "major",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "RE",
+      "TI",
+      "DO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 DO",
+    "image": "images/patterns/major_cadential_01.svg",
+    "audio": "sounds/patterns/major_cadential_01.mp3"
+  },
+  {
+    "id": "major_cadential_02",
+    "mode": "major",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "SO",
+      "LA",
+      "SO"
+    ],
+    "label": "SOL \u00b7 LA \u00b7 SOL",
+    "image": "images/patterns/major_cadential_02.svg",
+    "audio": "sounds/patterns/major_cadential_02.mp3"
+  },
+  {
+    "id": "major_linear_01",
+    "mode": "major",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "DO",
+      "RE",
+      "MI"
+    ],
+    "label": "DO \u00b7 RE \u00b7 MI",
+    "image": "images/patterns/major_linear_01.svg",
+    "audio": "sounds/patterns/major_linear_01.mp3"
+  },
+  {
+    "id": "major_linear_02",
+    "mode": "major",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "FA",
+      "MI",
+      "RE",
+      "DO"
+    ],
+    "label": "FA \u00b7 MI \u00b7 RE \u00b7 DO",
+    "image": "images/patterns/major_linear_02.svg",
+    "audio": "sounds/patterns/major_linear_02.mp3"
+  },
+  {
+    "id": "major_chromatic_01",
+    "mode": "major",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "FI",
+      "SO"
+    ],
+    "label": "FI \u00b7 SOL",
+    "image": "images/patterns/major_chromatic_01.svg",
+    "audio": "sounds/patterns/major_chromatic_01.mp3"
+  },
+  {
+    "id": "major_chromatic_02",
+    "mode": "major",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "RI",
+      "MI"
+    ],
+    "label": "RI \u00b7 MI",
+    "image": "images/patterns/major_chromatic_02.svg",
+    "audio": "sounds/patterns/major_chromatic_02.mp3"
+  },
+  {
+    "id": "major_chromatic_03",
+    "mode": "major",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "SI",
+      "LA"
+    ],
+    "label": "SI \u00b7 LA",
+    "image": "images/patterns/major_chromatic_03.svg",
+    "audio": "sounds/patterns/major_chromatic_03.mp3"
+  },
+  {
+    "id": "major_chromatic_04",
+    "mode": "major",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "TA",
+      "LA"
+    ],
+    "label": "TA \u00b7 LA",
+    "image": "images/patterns/major_chromatic_04.svg",
+    "audio": "sounds/patterns/major_chromatic_04.mp3"
+  },
+  {
+    "id": "minor_tonic_01",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/minor_tonic_01.svg",
+    "audio": "sounds/patterns/minor_tonic_01.mp3"
+  },
+  {
+    "id": "minor_tonic_02",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/minor_tonic_02.svg",
+    "audio": "sounds/patterns/minor_tonic_02.mp3"
+  },
+  {
+    "id": "minor_tonic_03",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "DO",
+      "LA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/minor_tonic_03.svg",
+    "audio": "sounds/patterns/minor_tonic_03.mp3"
+  },
+  {
+    "id": "minor_tonic_04",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "MI",
+      "LA"
+    ],
+    "label": "DO \u00b7 MI \u00b7 LA",
+    "image": "images/patterns/minor_tonic_04.svg",
+    "audio": "sounds/patterns/minor_tonic_04.mp3"
+  },
+  {
+    "id": "minor_tonic_05",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "LA",
+      "DO"
+    ],
+    "label": "MI \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/minor_tonic_05.svg",
+    "audio": "sounds/patterns/minor_tonic_05.mp3"
+  },
+  {
+    "id": "minor_tonic_06",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "LA",
+      "MI"
+    ],
+    "label": "DO \u00b7 LA \u00b7 MI",
+    "image": "images/patterns/minor_tonic_06.svg",
+    "audio": "sounds/patterns/minor_tonic_06.mp3"
+  },
+  {
+    "id": "minor_tonic_07",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "MI",
+      "DO"
+    ],
+    "label": "LA \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/minor_tonic_07.svg",
+    "audio": "sounds/patterns/minor_tonic_07.mp3"
+  },
+  {
+    "id": "minor_tonic_08",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "LA",
+      "MI"
+    ],
+    "label": "MI \u00b7 LA \u00b7 MI",
+    "image": "images/patterns/minor_tonic_08.svg",
+    "audio": "sounds/patterns/minor_tonic_08.mp3"
+  },
+  {
+    "id": "minor_tonic_09",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 DO",
+    "image": "images/patterns/minor_tonic_09.svg",
+    "audio": "sounds/patterns/minor_tonic_09.mp3"
+  },
+  {
+    "id": "minor_tonic_10",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA",
+    "image": "images/patterns/minor_tonic_10.svg",
+    "audio": "sounds/patterns/minor_tonic_10.mp3"
+  },
+  {
+    "id": "minor_tonic_11",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "MI"
+    ],
+    "label": "LA \u00b7 MI",
+    "image": "images/patterns/minor_tonic_11.svg",
+    "audio": "sounds/patterns/minor_tonic_11.mp3"
+  },
+  {
+    "id": "minor_tonic_12",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "LA"
+    ],
+    "label": "MI \u00b7 LA",
+    "image": "images/patterns/minor_tonic_12.svg",
+    "audio": "sounds/patterns/minor_tonic_12.mp3"
+  },
+  {
+    "id": "minor_tonic_13",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 MI",
+    "image": "images/patterns/minor_tonic_13.svg",
+    "audio": "sounds/patterns/minor_tonic_13.mp3"
+  },
+  {
+    "id": "minor_tonic_14",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO",
+    "image": "images/patterns/minor_tonic_14.svg",
+    "audio": "sounds/patterns/minor_tonic_14.mp3"
+  },
+  {
+    "id": "minor_tonic_15",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI",
+      "LA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI \u00b7 LA",
+    "image": "images/patterns/minor_tonic_15.svg",
+    "audio": "sounds/patterns/minor_tonic_15.mp3"
+  },
+  {
+    "id": "minor_tonic_16",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/minor_tonic_16.svg",
+    "audio": "sounds/patterns/minor_tonic_16.mp3"
+  },
+  {
+    "id": "minor_tonic_17",
+    "mode": "minor",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/minor_tonic_17.svg",
+    "audio": "sounds/patterns/minor_tonic_17.mp3"
+  },
+  {
+    "id": "minor_dominant_01",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SI",
+      "TI"
+    ],
+    "label": "MI \u00b7 SI \u00b7 TI",
+    "image": "images/patterns/minor_dominant_01.svg",
+    "audio": "sounds/patterns/minor_dominant_01.mp3"
+  },
+  {
+    "id": "minor_dominant_02",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "SI",
+      "MI"
+    ],
+    "label": "TI \u00b7 SI \u00b7 MI",
+    "image": "images/patterns/minor_dominant_02.svg",
+    "audio": "sounds/patterns/minor_dominant_02.mp3"
+  },
+  {
+    "id": "minor_dominant_03",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SI",
+      "TI",
+      "MI"
+    ],
+    "label": "SI \u00b7 TI \u00b7 MI",
+    "image": "images/patterns/minor_dominant_03.svg",
+    "audio": "sounds/patterns/minor_dominant_03.mp3"
+  },
+  {
+    "id": "minor_dominant_04",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "TI",
+      "SI"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SI",
+    "image": "images/patterns/minor_dominant_04.svg",
+    "audio": "sounds/patterns/minor_dominant_04.mp3"
+  },
+  {
+    "id": "minor_dominant_05",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SI",
+      "TI",
+      "RE"
+    ],
+    "label": "SI \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/minor_dominant_05.svg",
+    "audio": "sounds/patterns/minor_dominant_05.mp3"
+  },
+  {
+    "id": "minor_dominant_06",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "RE",
+      "TI"
+    ],
+    "label": "MI \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/minor_dominant_06.svg",
+    "audio": "sounds/patterns/minor_dominant_06.mp3"
+  },
+  {
+    "id": "minor_dominant_07",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "SI"
+    ],
+    "label": "TI \u00b7 RE \u00b7 SI",
+    "image": "images/patterns/minor_dominant_07.svg",
+    "audio": "sounds/patterns/minor_dominant_07.mp3"
+  },
+  {
+    "id": "minor_dominant_08",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SI"
+    ],
+    "label": "MI \u00b7 SI",
+    "image": "images/patterns/minor_dominant_08.svg",
+    "audio": "sounds/patterns/minor_dominant_08.mp3"
+  },
+  {
+    "id": "minor_dominant_09",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SI",
+      "MI"
+    ],
+    "label": "SI \u00b7 MI",
+    "image": "images/patterns/minor_dominant_09.svg",
+    "audio": "sounds/patterns/minor_dominant_09.mp3"
+  },
+  {
+    "id": "minor_dominant_10",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SI",
+      "TI"
+    ],
+    "label": "SI \u00b7 TI",
+    "image": "images/patterns/minor_dominant_10.svg",
+    "audio": "sounds/patterns/minor_dominant_10.mp3"
+  },
+  {
+    "id": "minor_dominant_11",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "SI"
+    ],
+    "label": "TI \u00b7 SI",
+    "image": "images/patterns/minor_dominant_11.svg",
+    "audio": "sounds/patterns/minor_dominant_11.mp3"
+  },
+  {
+    "id": "minor_dominant_12",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SI",
+      "RE"
+    ],
+    "label": "SI \u00b7 RE",
+    "image": "images/patterns/minor_dominant_12.svg",
+    "audio": "sounds/patterns/minor_dominant_12.mp3"
+  },
+  {
+    "id": "minor_dominant_13",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "SI"
+    ],
+    "label": "RE \u00b7 SI",
+    "image": "images/patterns/minor_dominant_13.svg",
+    "audio": "sounds/patterns/minor_dominant_13.mp3"
+  },
+  {
+    "id": "minor_dominant_14",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "RE",
+      "TI",
+      "SI"
+    ],
+    "label": "MI \u00b7 RE \u00b7 TI \u00b7 SI",
+    "image": "images/patterns/minor_dominant_14.svg",
+    "audio": "sounds/patterns/minor_dominant_14.mp3"
+  },
+  {
+    "id": "minor_dominant_15",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SI",
+      "TI",
+      "RE",
+      "MI"
+    ],
+    "label": "SI \u00b7 TI \u00b7 RE \u00b7 MI",
+    "image": "images/patterns/minor_dominant_15.svg",
+    "audio": "sounds/patterns/minor_dominant_15.mp3"
+  },
+  {
+    "id": "minor_dominant_16",
+    "mode": "minor",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "SI",
+      "MI",
+      "RE"
+    ],
+    "label": "TI \u00b7 SI \u00b7 MI \u00b7 RE",
+    "image": "images/patterns/minor_dominant_16.svg",
+    "audio": "sounds/patterns/minor_dominant_16.mp3"
+  },
+  {
+    "id": "minor_subdominant_01",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/minor_subdominant_01.svg",
+    "audio": "sounds/patterns/minor_subdominant_01.mp3"
+  },
+  {
+    "id": "minor_subdominant_02",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/minor_subdominant_02.svg",
+    "audio": "sounds/patterns/minor_subdominant_02.mp3"
+  },
+  {
+    "id": "minor_subdominant_03",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "RE"
+    ],
+    "label": "FA \u00b7 LA \u00b7 RE",
+    "image": "images/patterns/minor_subdominant_03.svg",
+    "audio": "sounds/patterns/minor_subdominant_03.mp3"
+  },
+  {
+    "id": "minor_subdominant_04",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "LA",
+      "FA"
+    ],
+    "label": "RE \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/minor_subdominant_04.svg",
+    "audio": "sounds/patterns/minor_subdominant_04.mp3"
+  },
+  {
+    "id": "minor_subdominant_05",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "RE",
+      "FA"
+    ],
+    "label": "LA \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/minor_subdominant_05.svg",
+    "audio": "sounds/patterns/minor_subdominant_05.mp3"
+  },
+  {
+    "id": "minor_subdominant_06",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "RE",
+      "LA"
+    ],
+    "label": "FA \u00b7 RE \u00b7 LA",
+    "image": "images/patterns/minor_subdominant_06.svg",
+    "audio": "sounds/patterns/minor_subdominant_06.mp3"
+  },
+  {
+    "id": "minor_subdominant_07",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 FA",
+    "image": "images/patterns/minor_subdominant_07.svg",
+    "audio": "sounds/patterns/minor_subdominant_07.mp3"
+  },
+  {
+    "id": "minor_subdominant_08",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE",
+    "image": "images/patterns/minor_subdominant_08.svg",
+    "audio": "sounds/patterns/minor_subdominant_08.mp3"
+  },
+  {
+    "id": "minor_subdominant_09",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 LA",
+    "image": "images/patterns/minor_subdominant_09.svg",
+    "audio": "sounds/patterns/minor_subdominant_09.mp3"
+  },
+  {
+    "id": "minor_subdominant_10",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA",
+    "image": "images/patterns/minor_subdominant_10.svg",
+    "audio": "sounds/patterns/minor_subdominant_10.mp3"
+  },
+  {
+    "id": "minor_subdominant_11",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA",
+      "RE"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA \u00b7 RE",
+    "image": "images/patterns/minor_subdominant_11.svg",
+    "audio": "sounds/patterns/minor_subdominant_11.mp3"
+  },
+  {
+    "id": "minor_subdominant_12",
+    "mode": "minor",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/minor_subdominant_12.svg",
+    "audio": "sounds/patterns/minor_subdominant_12.mp3"
+  },
+  {
+    "id": "minor_expanded_01",
+    "mode": "minor",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/minor_expanded_01.svg",
+    "audio": "sounds/patterns/minor_expanded_01.mp3"
+  },
+  {
+    "id": "minor_expanded_02",
+    "mode": "minor",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/minor_expanded_02.svg",
+    "audio": "sounds/patterns/minor_expanded_02.mp3"
+  },
+  {
+    "id": "minor_expanded_03",
+    "mode": "minor",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/minor_expanded_03.svg",
+    "audio": "sounds/patterns/minor_expanded_03.mp3"
+  },
+  {
+    "id": "minor_expanded_04",
+    "mode": "minor",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/minor_expanded_04.svg",
+    "audio": "sounds/patterns/minor_expanded_04.mp3"
+  },
+  {
+    "id": "minor_cadential_01",
+    "mode": "minor",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "LA",
+      "TI",
+      "DO"
+    ],
+    "label": "LA \u00b7 TI \u00b7 DO",
+    "image": "images/patterns/minor_cadential_01.svg",
+    "audio": "sounds/patterns/minor_cadential_01.mp3"
+  },
+  {
+    "id": "minor_cadential_02",
+    "mode": "minor",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "RE",
+      "DO",
+      "TI",
+      "LA"
+    ],
+    "label": "RE \u00b7 DO \u00b7 TI \u00b7 LA",
+    "image": "images/patterns/minor_cadential_02.svg",
+    "audio": "sounds/patterns/minor_cadential_02.mp3"
+  },
+  {
+    "id": "minor_cadential_03",
+    "mode": "minor",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "RE",
+      "SI",
+      "LA"
+    ],
+    "label": "RE \u00b7 SI \u00b7 LA",
+    "image": "images/patterns/minor_cadential_03.svg",
+    "audio": "sounds/patterns/minor_cadential_03.mp3"
+  },
+  {
+    "id": "minor_cadential_04",
+    "mode": "minor",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "MI",
+      "FA",
+      "MI"
+    ],
+    "label": "MI \u00b7 FA \u00b7 MI",
+    "image": "images/patterns/minor_cadential_04.svg",
+    "audio": "sounds/patterns/minor_cadential_04.mp3"
+  },
+  {
+    "id": "minor_cadential_05",
+    "mode": "minor",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "MI",
+      "FI",
+      "SI",
+      "LA"
+    ],
+    "label": "MI \u00b7 FI \u00b7 SI \u00b7 LA",
+    "image": "images/patterns/minor_cadential_05.svg",
+    "audio": "sounds/patterns/minor_cadential_05.mp3"
+  },
+  {
+    "id": "minor_chromatic_01",
+    "mode": "minor",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "RI",
+      "MI"
+    ],
+    "label": "RI \u00b7 MI",
+    "image": "images/patterns/minor_chromatic_01.svg",
+    "audio": "sounds/patterns/minor_chromatic_01.mp3"
+  },
+  {
+    "id": "minor_chromatic_02",
+    "mode": "minor",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "DI",
+      "RE"
+    ],
+    "label": "DI \u00b7 RE",
+    "image": "images/patterns/minor_chromatic_02.svg",
+    "audio": "sounds/patterns/minor_chromatic_02.mp3"
+  },
+  {
+    "id": "minor_chromatic_03",
+    "mode": "minor",
+    "category": "chromatic",
+    "categoryLabel": "Chromatic Intermediaries",
+    "syllables": [
+      "TE",
+      "LA"
+    ],
+    "label": "TE \u00b7 LA",
+    "image": "images/patterns/minor_chromatic_03.svg",
+    "audio": "sounds/patterns/minor_chromatic_03.mp3"
+  },
+  {
+    "id": "dorian_tonic_01",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/dorian_tonic_01.svg",
+    "audio": "sounds/patterns/dorian_tonic_01.mp3"
+  },
+  {
+    "id": "dorian_tonic_02",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/dorian_tonic_02.svg",
+    "audio": "sounds/patterns/dorian_tonic_02.mp3"
+  },
+  {
+    "id": "dorian_tonic_03",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "FA",
+      "RE"
+    ],
+    "label": "RE \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/dorian_tonic_03.svg",
+    "audio": "sounds/patterns/dorian_tonic_03.mp3"
+  },
+  {
+    "id": "dorian_tonic_04",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "LA",
+      "RE"
+    ],
+    "label": "FA \u00b7 LA \u00b7 RE",
+    "image": "images/patterns/dorian_tonic_04.svg",
+    "audio": "sounds/patterns/dorian_tonic_04.mp3"
+  },
+  {
+    "id": "dorian_tonic_05",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "RE",
+      "FA"
+    ],
+    "label": "LA \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/dorian_tonic_05.svg",
+    "audio": "sounds/patterns/dorian_tonic_05.mp3"
+  },
+  {
+    "id": "dorian_tonic_06",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "RE",
+      "LA"
+    ],
+    "label": "FA \u00b7 RE \u00b7 LA",
+    "image": "images/patterns/dorian_tonic_06.svg",
+    "audio": "sounds/patterns/dorian_tonic_06.mp3"
+  },
+  {
+    "id": "dorian_tonic_07",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "LA",
+      "FA"
+    ],
+    "label": "RE \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/dorian_tonic_07.svg",
+    "audio": "sounds/patterns/dorian_tonic_07.mp3"
+  },
+  {
+    "id": "dorian_tonic_08",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "RE",
+      "LA"
+    ],
+    "label": "LA \u00b7 RE \u00b7 LA",
+    "image": "images/patterns/dorian_tonic_08.svg",
+    "audio": "sounds/patterns/dorian_tonic_08.mp3"
+  },
+  {
+    "id": "dorian_tonic_09",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 FA",
+    "image": "images/patterns/dorian_tonic_09.svg",
+    "audio": "sounds/patterns/dorian_tonic_09.mp3"
+  },
+  {
+    "id": "dorian_tonic_10",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE",
+    "image": "images/patterns/dorian_tonic_10.svg",
+    "audio": "sounds/patterns/dorian_tonic_10.mp3"
+  },
+  {
+    "id": "dorian_tonic_11",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "LA"
+    ],
+    "label": "RE \u00b7 LA",
+    "image": "images/patterns/dorian_tonic_11.svg",
+    "audio": "sounds/patterns/dorian_tonic_11.mp3"
+  },
+  {
+    "id": "dorian_tonic_12",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "RE"
+    ],
+    "label": "LA \u00b7 RE",
+    "image": "images/patterns/dorian_tonic_12.svg",
+    "audio": "sounds/patterns/dorian_tonic_12.mp3"
+  },
+  {
+    "id": "dorian_tonic_13",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 LA",
+    "image": "images/patterns/dorian_tonic_13.svg",
+    "audio": "sounds/patterns/dorian_tonic_13.mp3"
+  },
+  {
+    "id": "dorian_tonic_14",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA",
+    "image": "images/patterns/dorian_tonic_14.svg",
+    "audio": "sounds/patterns/dorian_tonic_14.mp3"
+  },
+  {
+    "id": "dorian_tonic_15",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA",
+      "RE"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA \u00b7 RE",
+    "image": "images/patterns/dorian_tonic_15.svg",
+    "audio": "sounds/patterns/dorian_tonic_15.mp3"
+  },
+  {
+    "id": "dorian_tonic_16",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/dorian_tonic_16.svg",
+    "audio": "sounds/patterns/dorian_tonic_16.mp3"
+  },
+  {
+    "id": "dorian_tonic_17",
+    "mode": "dorian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/dorian_tonic_17.svg",
+    "audio": "sounds/patterns/dorian_tonic_17.mp3"
+  },
+  {
+    "id": "dorian_dominant_01",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/dorian_dominant_01.svg",
+    "audio": "sounds/patterns/dorian_dominant_01.mp3"
+  },
+  {
+    "id": "dorian_dominant_02",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/dorian_dominant_02.svg",
+    "audio": "sounds/patterns/dorian_dominant_02.mp3"
+  },
+  {
+    "id": "dorian_dominant_03",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "LA"
+    ],
+    "label": "DO \u00b7 MI \u00b7 LA",
+    "image": "images/patterns/dorian_dominant_03.svg",
+    "audio": "sounds/patterns/dorian_dominant_03.mp3"
+  },
+  {
+    "id": "dorian_dominant_04",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/dorian_dominant_04.svg",
+    "audio": "sounds/patterns/dorian_dominant_04.mp3"
+  },
+  {
+    "id": "dorian_dominant_05",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/dorian_dominant_05.svg",
+    "audio": "sounds/patterns/dorian_dominant_05.mp3"
+  },
+  {
+    "id": "dorian_dominant_06",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "SO",
+      "MI"
+    ],
+    "label": "LA \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/dorian_dominant_06.svg",
+    "audio": "sounds/patterns/dorian_dominant_06.mp3"
+  },
+  {
+    "id": "dorian_dominant_07",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "DO"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 DO",
+    "image": "images/patterns/dorian_dominant_07.svg",
+    "audio": "sounds/patterns/dorian_dominant_07.mp3"
+  },
+  {
+    "id": "dorian_dominant_08",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 DO",
+    "image": "images/patterns/dorian_dominant_08.svg",
+    "audio": "sounds/patterns/dorian_dominant_08.mp3"
+  },
+  {
+    "id": "dorian_dominant_09",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA",
+    "image": "images/patterns/dorian_dominant_09.svg",
+    "audio": "sounds/patterns/dorian_dominant_09.mp3"
+  },
+  {
+    "id": "dorian_dominant_10",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 MI",
+    "image": "images/patterns/dorian_dominant_10.svg",
+    "audio": "sounds/patterns/dorian_dominant_10.mp3"
+  },
+  {
+    "id": "dorian_dominant_11",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO",
+    "image": "images/patterns/dorian_dominant_11.svg",
+    "audio": "sounds/patterns/dorian_dominant_11.mp3"
+  },
+  {
+    "id": "dorian_dominant_12",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "SO"
+    ],
+    "label": "DO \u00b7 SOL",
+    "image": "images/patterns/dorian_dominant_12.svg",
+    "audio": "sounds/patterns/dorian_dominant_12.mp3"
+  },
+  {
+    "id": "dorian_dominant_13",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "DO"
+    ],
+    "label": "SOL \u00b7 DO",
+    "image": "images/patterns/dorian_dominant_13.svg",
+    "audio": "sounds/patterns/dorian_dominant_13.mp3"
+  },
+  {
+    "id": "dorian_dominant_14",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "LA \u00b7 SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/dorian_dominant_14.svg",
+    "audio": "sounds/patterns/dorian_dominant_14.mp3"
+  },
+  {
+    "id": "dorian_dominant_15",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO",
+      "LA"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL \u00b7 LA",
+    "image": "images/patterns/dorian_dominant_15.svg",
+    "audio": "sounds/patterns/dorian_dominant_15.mp3"
+  },
+  {
+    "id": "dorian_dominant_16",
+    "mode": "dorian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA",
+      "SO"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA \u00b7 SOL",
+    "image": "images/patterns/dorian_dominant_16.svg",
+    "audio": "sounds/patterns/dorian_dominant_16.mp3"
+  },
+  {
+    "id": "dorian_subdominant_01",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/dorian_subdominant_01.svg",
+    "audio": "sounds/patterns/dorian_subdominant_01.mp3"
+  },
+  {
+    "id": "dorian_subdominant_02",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/dorian_subdominant_02.svg",
+    "audio": "sounds/patterns/dorian_subdominant_02.mp3"
+  },
+  {
+    "id": "dorian_subdominant_03",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "SO"
+    ],
+    "label": "TI \u00b7 RE \u00b7 SOL",
+    "image": "images/patterns/dorian_subdominant_03.svg",
+    "audio": "sounds/patterns/dorian_subdominant_03.mp3"
+  },
+  {
+    "id": "dorian_subdominant_04",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "RE",
+      "TI"
+    ],
+    "label": "SOL \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/dorian_subdominant_04.svg",
+    "audio": "sounds/patterns/dorian_subdominant_04.mp3"
+  },
+  {
+    "id": "dorian_subdominant_05",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "SO",
+      "TI"
+    ],
+    "label": "RE \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/dorian_subdominant_05.svg",
+    "audio": "sounds/patterns/dorian_subdominant_05.mp3"
+  },
+  {
+    "id": "dorian_subdominant_06",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "SO",
+      "RE"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 RE",
+    "image": "images/patterns/dorian_subdominant_06.svg",
+    "audio": "sounds/patterns/dorian_subdominant_06.mp3"
+  },
+  {
+    "id": "dorian_subdominant_07",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 TI",
+    "image": "images/patterns/dorian_subdominant_07.svg",
+    "audio": "sounds/patterns/dorian_subdominant_07.mp3"
+  },
+  {
+    "id": "dorian_subdominant_08",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL",
+    "image": "images/patterns/dorian_subdominant_08.svg",
+    "audio": "sounds/patterns/dorian_subdominant_08.mp3"
+  },
+  {
+    "id": "dorian_subdominant_09",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 RE",
+    "image": "images/patterns/dorian_subdominant_09.svg",
+    "audio": "sounds/patterns/dorian_subdominant_09.mp3"
+  },
+  {
+    "id": "dorian_subdominant_10",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI",
+    "image": "images/patterns/dorian_subdominant_10.svg",
+    "audio": "sounds/patterns/dorian_subdominant_10.mp3"
+  },
+  {
+    "id": "dorian_subdominant_11",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE",
+      "SO"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE \u00b7 SOL",
+    "image": "images/patterns/dorian_subdominant_11.svg",
+    "audio": "sounds/patterns/dorian_subdominant_11.mp3"
+  },
+  {
+    "id": "dorian_subdominant_12",
+    "mode": "dorian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/dorian_subdominant_12.svg",
+    "audio": "sounds/patterns/dorian_subdominant_12.mp3"
+  },
+  {
+    "id": "dorian_expanded_01",
+    "mode": "dorian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/dorian_expanded_01.svg",
+    "audio": "sounds/patterns/dorian_expanded_01.mp3"
+  },
+  {
+    "id": "dorian_expanded_02",
+    "mode": "dorian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/dorian_expanded_02.svg",
+    "audio": "sounds/patterns/dorian_expanded_02.mp3"
+  },
+  {
+    "id": "dorian_expanded_03",
+    "mode": "dorian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/dorian_expanded_03.svg",
+    "audio": "sounds/patterns/dorian_expanded_03.mp3"
+  },
+  {
+    "id": "dorian_expanded_04",
+    "mode": "dorian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/dorian_expanded_04.svg",
+    "audio": "sounds/patterns/dorian_expanded_04.mp3"
+  },
+  {
+    "id": "dorian_cadential_01",
+    "mode": "dorian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "MI",
+      "DO",
+      "RE"
+    ],
+    "label": "MI \u00b7 DO \u00b7 RE",
+    "image": "images/patterns/dorian_cadential_01.svg",
+    "audio": "sounds/patterns/dorian_cadential_01.mp3"
+  },
+  {
+    "id": "dorian_cadential_02",
+    "mode": "dorian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "LA",
+      "TI",
+      "LA"
+    ],
+    "label": "LA \u00b7 TI \u00b7 LA",
+    "image": "images/patterns/dorian_cadential_02.svg",
+    "audio": "sounds/patterns/dorian_cadential_02.mp3"
+  },
+  {
+    "id": "dorian_linear_01",
+    "mode": "dorian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "RE",
+      "MI",
+      "FA"
+    ],
+    "label": "RE \u00b7 MI \u00b7 FA",
+    "image": "images/patterns/dorian_linear_01.svg",
+    "audio": "sounds/patterns/dorian_linear_01.mp3"
+  },
+  {
+    "id": "dorian_linear_02",
+    "mode": "dorian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "SO",
+      "FA",
+      "MI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 FA \u00b7 MI \u00b7 RE",
+    "image": "images/patterns/dorian_linear_02.svg",
+    "audio": "sounds/patterns/dorian_linear_02.mp3"
+  },
+  {
+    "id": "phrygian_tonic_01",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/phrygian_tonic_01.svg",
+    "audio": "sounds/patterns/phrygian_tonic_01.mp3"
+  },
+  {
+    "id": "phrygian_tonic_02",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/phrygian_tonic_02.svg",
+    "audio": "sounds/patterns/phrygian_tonic_02.mp3"
+  },
+  {
+    "id": "phrygian_tonic_03",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "SO",
+      "MI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/phrygian_tonic_03.svg",
+    "audio": "sounds/patterns/phrygian_tonic_03.mp3"
+  },
+  {
+    "id": "phrygian_tonic_04",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "TI",
+      "MI"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 MI",
+    "image": "images/patterns/phrygian_tonic_04.svg",
+    "audio": "sounds/patterns/phrygian_tonic_04.mp3"
+  },
+  {
+    "id": "phrygian_tonic_05",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "MI",
+      "SO"
+    ],
+    "label": "TI \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/phrygian_tonic_05.svg",
+    "audio": "sounds/patterns/phrygian_tonic_05.mp3"
+  },
+  {
+    "id": "phrygian_tonic_06",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "MI",
+      "TI"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 TI",
+    "image": "images/patterns/phrygian_tonic_06.svg",
+    "audio": "sounds/patterns/phrygian_tonic_06.mp3"
+  },
+  {
+    "id": "phrygian_tonic_07",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "TI",
+      "SO"
+    ],
+    "label": "MI \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/phrygian_tonic_07.svg",
+    "audio": "sounds/patterns/phrygian_tonic_07.mp3"
+  },
+  {
+    "id": "phrygian_tonic_08",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "MI",
+      "TI"
+    ],
+    "label": "TI \u00b7 MI \u00b7 TI",
+    "image": "images/patterns/phrygian_tonic_08.svg",
+    "audio": "sounds/patterns/phrygian_tonic_08.mp3"
+  },
+  {
+    "id": "phrygian_tonic_09",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "SO"
+    ],
+    "label": "MI \u00b7 SOL",
+    "image": "images/patterns/phrygian_tonic_09.svg",
+    "audio": "sounds/patterns/phrygian_tonic_09.mp3"
+  },
+  {
+    "id": "phrygian_tonic_10",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI",
+    "image": "images/patterns/phrygian_tonic_10.svg",
+    "audio": "sounds/patterns/phrygian_tonic_10.mp3"
+  },
+  {
+    "id": "phrygian_tonic_11",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "TI"
+    ],
+    "label": "MI \u00b7 TI",
+    "image": "images/patterns/phrygian_tonic_11.svg",
+    "audio": "sounds/patterns/phrygian_tonic_11.mp3"
+  },
+  {
+    "id": "phrygian_tonic_12",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "MI"
+    ],
+    "label": "TI \u00b7 MI",
+    "image": "images/patterns/phrygian_tonic_12.svg",
+    "audio": "sounds/patterns/phrygian_tonic_12.mp3"
+  },
+  {
+    "id": "phrygian_tonic_13",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 TI",
+    "image": "images/patterns/phrygian_tonic_13.svg",
+    "audio": "sounds/patterns/phrygian_tonic_13.mp3"
+  },
+  {
+    "id": "phrygian_tonic_14",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL",
+    "image": "images/patterns/phrygian_tonic_14.svg",
+    "audio": "sounds/patterns/phrygian_tonic_14.mp3"
+  },
+  {
+    "id": "phrygian_tonic_15",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI",
+      "MI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI \u00b7 MI",
+    "image": "images/patterns/phrygian_tonic_15.svg",
+    "audio": "sounds/patterns/phrygian_tonic_15.mp3"
+  },
+  {
+    "id": "phrygian_tonic_16",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/phrygian_tonic_16.svg",
+    "audio": "sounds/patterns/phrygian_tonic_16.mp3"
+  },
+  {
+    "id": "phrygian_tonic_17",
+    "mode": "phrygian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "MI",
+      "SO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/phrygian_tonic_17.svg",
+    "audio": "sounds/patterns/phrygian_tonic_17.mp3"
+  },
+  {
+    "id": "phrygian_dominant_01",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/phrygian_dominant_01.svg",
+    "audio": "sounds/patterns/phrygian_dominant_01.mp3"
+  },
+  {
+    "id": "phrygian_dominant_02",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/phrygian_dominant_02.svg",
+    "audio": "sounds/patterns/phrygian_dominant_02.mp3"
+  },
+  {
+    "id": "phrygian_dominant_03",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "TI"
+    ],
+    "label": "RE \u00b7 FA \u00b7 TI",
+    "image": "images/patterns/phrygian_dominant_03.svg",
+    "audio": "sounds/patterns/phrygian_dominant_03.mp3"
+  },
+  {
+    "id": "phrygian_dominant_04",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/phrygian_dominant_04.svg",
+    "audio": "sounds/patterns/phrygian_dominant_04.mp3"
+  },
+  {
+    "id": "phrygian_dominant_05",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/phrygian_dominant_05.svg",
+    "audio": "sounds/patterns/phrygian_dominant_05.mp3"
+  },
+  {
+    "id": "phrygian_dominant_06",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "LA",
+      "FA"
+    ],
+    "label": "TI \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/phrygian_dominant_06.svg",
+    "audio": "sounds/patterns/phrygian_dominant_06.mp3"
+  },
+  {
+    "id": "phrygian_dominant_07",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "RE"
+    ],
+    "label": "FA \u00b7 LA \u00b7 RE",
+    "image": "images/patterns/phrygian_dominant_07.svg",
+    "audio": "sounds/patterns/phrygian_dominant_07.mp3"
+  },
+  {
+    "id": "phrygian_dominant_08",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 RE",
+    "image": "images/patterns/phrygian_dominant_08.svg",
+    "audio": "sounds/patterns/phrygian_dominant_08.mp3"
+  },
+  {
+    "id": "phrygian_dominant_09",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI",
+    "image": "images/patterns/phrygian_dominant_09.svg",
+    "audio": "sounds/patterns/phrygian_dominant_09.mp3"
+  },
+  {
+    "id": "phrygian_dominant_10",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 FA",
+    "image": "images/patterns/phrygian_dominant_10.svg",
+    "audio": "sounds/patterns/phrygian_dominant_10.mp3"
+  },
+  {
+    "id": "phrygian_dominant_11",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE",
+    "image": "images/patterns/phrygian_dominant_11.svg",
+    "audio": "sounds/patterns/phrygian_dominant_11.mp3"
+  },
+  {
+    "id": "phrygian_dominant_12",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "LA"
+    ],
+    "label": "RE \u00b7 LA",
+    "image": "images/patterns/phrygian_dominant_12.svg",
+    "audio": "sounds/patterns/phrygian_dominant_12.mp3"
+  },
+  {
+    "id": "phrygian_dominant_13",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "RE"
+    ],
+    "label": "LA \u00b7 RE",
+    "image": "images/patterns/phrygian_dominant_13.svg",
+    "audio": "sounds/patterns/phrygian_dominant_13.mp3"
+  },
+  {
+    "id": "phrygian_dominant_14",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "TI \u00b7 LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/phrygian_dominant_14.svg",
+    "audio": "sounds/patterns/phrygian_dominant_14.mp3"
+  },
+  {
+    "id": "phrygian_dominant_15",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA",
+      "TI"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA \u00b7 TI",
+    "image": "images/patterns/phrygian_dominant_15.svg",
+    "audio": "sounds/patterns/phrygian_dominant_15.mp3"
+  },
+  {
+    "id": "phrygian_dominant_16",
+    "mode": "phrygian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI",
+      "LA"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI \u00b7 LA",
+    "image": "images/patterns/phrygian_dominant_16.svg",
+    "audio": "sounds/patterns/phrygian_dominant_16.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_01",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/phrygian_subdominant_01.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_01.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_02",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/phrygian_subdominant_02.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_02.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_03",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "LA"
+    ],
+    "label": "DO \u00b7 MI \u00b7 LA",
+    "image": "images/patterns/phrygian_subdominant_03.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_03.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_04",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "MI",
+      "DO"
+    ],
+    "label": "LA \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/phrygian_subdominant_04.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_04.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_05",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "LA",
+      "DO"
+    ],
+    "label": "MI \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/phrygian_subdominant_05.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_05.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_06",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "LA",
+      "MI"
+    ],
+    "label": "DO \u00b7 LA \u00b7 MI",
+    "image": "images/patterns/phrygian_subdominant_06.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_06.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_07",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 DO",
+    "image": "images/patterns/phrygian_subdominant_07.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_07.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_08",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA",
+    "image": "images/patterns/phrygian_subdominant_08.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_08.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_09",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 MI",
+    "image": "images/patterns/phrygian_subdominant_09.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_09.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_10",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO",
+    "image": "images/patterns/phrygian_subdominant_10.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_10.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_11",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI",
+      "LA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI \u00b7 LA",
+    "image": "images/patterns/phrygian_subdominant_11.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_11.mp3"
+  },
+  {
+    "id": "phrygian_subdominant_12",
+    "mode": "phrygian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/phrygian_subdominant_12.svg",
+    "audio": "sounds/patterns/phrygian_subdominant_12.mp3"
+  },
+  {
+    "id": "phrygian_expanded_01",
+    "mode": "phrygian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/phrygian_expanded_01.svg",
+    "audio": "sounds/patterns/phrygian_expanded_01.mp3"
+  },
+  {
+    "id": "phrygian_expanded_02",
+    "mode": "phrygian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/phrygian_expanded_02.svg",
+    "audio": "sounds/patterns/phrygian_expanded_02.mp3"
+  },
+  {
+    "id": "phrygian_expanded_03",
+    "mode": "phrygian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/phrygian_expanded_03.svg",
+    "audio": "sounds/patterns/phrygian_expanded_03.mp3"
+  },
+  {
+    "id": "phrygian_expanded_04",
+    "mode": "phrygian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/phrygian_expanded_04.svg",
+    "audio": "sounds/patterns/phrygian_expanded_04.mp3"
+  },
+  {
+    "id": "phrygian_cadential_01",
+    "mode": "phrygian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "FA",
+      "RE",
+      "MI"
+    ],
+    "label": "FA \u00b7 RE \u00b7 MI",
+    "image": "images/patterns/phrygian_cadential_01.svg",
+    "audio": "sounds/patterns/phrygian_cadential_01.mp3"
+  },
+  {
+    "id": "phrygian_cadential_02",
+    "mode": "phrygian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "TI",
+      "DO",
+      "TI"
+    ],
+    "label": "TI \u00b7 DO \u00b7 TI",
+    "image": "images/patterns/phrygian_cadential_02.svg",
+    "audio": "sounds/patterns/phrygian_cadential_02.mp3"
+  },
+  {
+    "id": "phrygian_linear_01",
+    "mode": "phrygian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "MI",
+      "FA",
+      "SO"
+    ],
+    "label": "MI \u00b7 FA \u00b7 SOL",
+    "image": "images/patterns/phrygian_linear_01.svg",
+    "audio": "sounds/patterns/phrygian_linear_01.mp3"
+  },
+  {
+    "id": "phrygian_linear_02",
+    "mode": "phrygian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "LA",
+      "SO",
+      "FA",
+      "MI"
+    ],
+    "label": "LA \u00b7 SOL \u00b7 FA \u00b7 MI",
+    "image": "images/patterns/phrygian_linear_02.svg",
+    "audio": "sounds/patterns/phrygian_linear_02.mp3"
+  },
+  {
+    "id": "lydian_tonic_01",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/lydian_tonic_01.svg",
+    "audio": "sounds/patterns/lydian_tonic_01.mp3"
+  },
+  {
+    "id": "lydian_tonic_02",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/lydian_tonic_02.svg",
+    "audio": "sounds/patterns/lydian_tonic_02.mp3"
+  },
+  {
+    "id": "lydian_tonic_03",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "LA",
+      "FA"
+    ],
+    "label": "FA \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/lydian_tonic_03.svg",
+    "audio": "sounds/patterns/lydian_tonic_03.mp3"
+  },
+  {
+    "id": "lydian_tonic_04",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "DO",
+      "FA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 FA",
+    "image": "images/patterns/lydian_tonic_04.svg",
+    "audio": "sounds/patterns/lydian_tonic_04.mp3"
+  },
+  {
+    "id": "lydian_tonic_05",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "FA",
+      "LA"
+    ],
+    "label": "DO \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/lydian_tonic_05.svg",
+    "audio": "sounds/patterns/lydian_tonic_05.mp3"
+  },
+  {
+    "id": "lydian_tonic_06",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "FA",
+      "DO"
+    ],
+    "label": "LA \u00b7 FA \u00b7 DO",
+    "image": "images/patterns/lydian_tonic_06.svg",
+    "audio": "sounds/patterns/lydian_tonic_06.mp3"
+  },
+  {
+    "id": "lydian_tonic_07",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "DO",
+      "LA"
+    ],
+    "label": "FA \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/lydian_tonic_07.svg",
+    "audio": "sounds/patterns/lydian_tonic_07.mp3"
+  },
+  {
+    "id": "lydian_tonic_08",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "FA",
+      "DO"
+    ],
+    "label": "DO \u00b7 FA \u00b7 DO",
+    "image": "images/patterns/lydian_tonic_08.svg",
+    "audio": "sounds/patterns/lydian_tonic_08.mp3"
+  },
+  {
+    "id": "lydian_tonic_09",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 LA",
+    "image": "images/patterns/lydian_tonic_09.svg",
+    "audio": "sounds/patterns/lydian_tonic_09.mp3"
+  },
+  {
+    "id": "lydian_tonic_10",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA",
+    "image": "images/patterns/lydian_tonic_10.svg",
+    "audio": "sounds/patterns/lydian_tonic_10.mp3"
+  },
+  {
+    "id": "lydian_tonic_11",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "DO"
+    ],
+    "label": "FA \u00b7 DO",
+    "image": "images/patterns/lydian_tonic_11.svg",
+    "audio": "sounds/patterns/lydian_tonic_11.mp3"
+  },
+  {
+    "id": "lydian_tonic_12",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "FA"
+    ],
+    "label": "DO \u00b7 FA",
+    "image": "images/patterns/lydian_tonic_12.svg",
+    "audio": "sounds/patterns/lydian_tonic_12.mp3"
+  },
+  {
+    "id": "lydian_tonic_13",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 DO",
+    "image": "images/patterns/lydian_tonic_13.svg",
+    "audio": "sounds/patterns/lydian_tonic_13.mp3"
+  },
+  {
+    "id": "lydian_tonic_14",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA",
+    "image": "images/patterns/lydian_tonic_14.svg",
+    "audio": "sounds/patterns/lydian_tonic_14.mp3"
+  },
+  {
+    "id": "lydian_tonic_15",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO",
+      "FA"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO \u00b7 FA",
+    "image": "images/patterns/lydian_tonic_15.svg",
+    "audio": "sounds/patterns/lydian_tonic_15.mp3"
+  },
+  {
+    "id": "lydian_tonic_16",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/lydian_tonic_16.svg",
+    "audio": "sounds/patterns/lydian_tonic_16.mp3"
+  },
+  {
+    "id": "lydian_tonic_17",
+    "mode": "lydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "LA",
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/lydian_tonic_17.svg",
+    "audio": "sounds/patterns/lydian_tonic_17.mp3"
+  },
+  {
+    "id": "lydian_dominant_01",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/lydian_dominant_01.svg",
+    "audio": "sounds/patterns/lydian_dominant_01.mp3"
+  },
+  {
+    "id": "lydian_dominant_02",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/lydian_dominant_02.svg",
+    "audio": "sounds/patterns/lydian_dominant_02.mp3"
+  },
+  {
+    "id": "lydian_dominant_03",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "DO"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 DO",
+    "image": "images/patterns/lydian_dominant_03.svg",
+    "audio": "sounds/patterns/lydian_dominant_03.mp3"
+  },
+  {
+    "id": "lydian_dominant_04",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/lydian_dominant_04.svg",
+    "audio": "sounds/patterns/lydian_dominant_04.mp3"
+  },
+  {
+    "id": "lydian_dominant_05",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/lydian_dominant_05.svg",
+    "audio": "sounds/patterns/lydian_dominant_05.mp3"
+  },
+  {
+    "id": "lydian_dominant_06",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "TI",
+      "SO"
+    ],
+    "label": "DO \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/lydian_dominant_06.svg",
+    "audio": "sounds/patterns/lydian_dominant_06.mp3"
+  },
+  {
+    "id": "lydian_dominant_07",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "TI",
+      "MI"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 MI",
+    "image": "images/patterns/lydian_dominant_07.svg",
+    "audio": "sounds/patterns/lydian_dominant_07.mp3"
+  },
+  {
+    "id": "lydian_dominant_08",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 MI",
+    "image": "images/patterns/lydian_dominant_08.svg",
+    "audio": "sounds/patterns/lydian_dominant_08.mp3"
+  },
+  {
+    "id": "lydian_dominant_09",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO",
+    "image": "images/patterns/lydian_dominant_09.svg",
+    "audio": "sounds/patterns/lydian_dominant_09.mp3"
+  },
+  {
+    "id": "lydian_dominant_10",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SO"
+    ],
+    "label": "MI \u00b7 SOL",
+    "image": "images/patterns/lydian_dominant_10.svg",
+    "audio": "sounds/patterns/lydian_dominant_10.mp3"
+  },
+  {
+    "id": "lydian_dominant_11",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI",
+    "image": "images/patterns/lydian_dominant_11.svg",
+    "audio": "sounds/patterns/lydian_dominant_11.mp3"
+  },
+  {
+    "id": "lydian_dominant_12",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "TI"
+    ],
+    "label": "MI \u00b7 TI",
+    "image": "images/patterns/lydian_dominant_12.svg",
+    "audio": "sounds/patterns/lydian_dominant_12.mp3"
+  },
+  {
+    "id": "lydian_dominant_13",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "TI",
+      "MI"
+    ],
+    "label": "TI \u00b7 MI",
+    "image": "images/patterns/lydian_dominant_13.svg",
+    "audio": "sounds/patterns/lydian_dominant_13.mp3"
+  },
+  {
+    "id": "lydian_dominant_14",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "TI",
+      "SO",
+      "MI"
+    ],
+    "label": "DO \u00b7 TI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/lydian_dominant_14.svg",
+    "audio": "sounds/patterns/lydian_dominant_14.mp3"
+  },
+  {
+    "id": "lydian_dominant_15",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI",
+      "DO"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI \u00b7 DO",
+    "image": "images/patterns/lydian_dominant_15.svg",
+    "audio": "sounds/patterns/lydian_dominant_15.mp3"
+  },
+  {
+    "id": "lydian_dominant_16",
+    "mode": "lydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO \u00b7 TI",
+    "image": "images/patterns/lydian_dominant_16.svg",
+    "audio": "sounds/patterns/lydian_dominant_16.mp3"
+  },
+  {
+    "id": "lydian_subdominant_01",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/lydian_subdominant_01.svg",
+    "audio": "sounds/patterns/lydian_subdominant_01.mp3"
+  },
+  {
+    "id": "lydian_subdominant_02",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/lydian_subdominant_02.svg",
+    "audio": "sounds/patterns/lydian_subdominant_02.mp3"
+  },
+  {
+    "id": "lydian_subdominant_03",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "TI"
+    ],
+    "label": "RE \u00b7 FA \u00b7 TI",
+    "image": "images/patterns/lydian_subdominant_03.svg",
+    "audio": "sounds/patterns/lydian_subdominant_03.mp3"
+  },
+  {
+    "id": "lydian_subdominant_04",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "FA",
+      "RE"
+    ],
+    "label": "TI \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/lydian_subdominant_04.svg",
+    "audio": "sounds/patterns/lydian_subdominant_04.mp3"
+  },
+  {
+    "id": "lydian_subdominant_05",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "TI",
+      "RE"
+    ],
+    "label": "FA \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/lydian_subdominant_05.svg",
+    "audio": "sounds/patterns/lydian_subdominant_05.mp3"
+  },
+  {
+    "id": "lydian_subdominant_06",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "TI",
+      "FA"
+    ],
+    "label": "RE \u00b7 TI \u00b7 FA",
+    "image": "images/patterns/lydian_subdominant_06.svg",
+    "audio": "sounds/patterns/lydian_subdominant_06.mp3"
+  },
+  {
+    "id": "lydian_subdominant_07",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 RE",
+    "image": "images/patterns/lydian_subdominant_07.svg",
+    "audio": "sounds/patterns/lydian_subdominant_07.mp3"
+  },
+  {
+    "id": "lydian_subdominant_08",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI",
+    "image": "images/patterns/lydian_subdominant_08.svg",
+    "audio": "sounds/patterns/lydian_subdominant_08.mp3"
+  },
+  {
+    "id": "lydian_subdominant_09",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 FA",
+    "image": "images/patterns/lydian_subdominant_09.svg",
+    "audio": "sounds/patterns/lydian_subdominant_09.mp3"
+  },
+  {
+    "id": "lydian_subdominant_10",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE",
+    "image": "images/patterns/lydian_subdominant_10.svg",
+    "audio": "sounds/patterns/lydian_subdominant_10.mp3"
+  },
+  {
+    "id": "lydian_subdominant_11",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA",
+      "TI"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA \u00b7 TI",
+    "image": "images/patterns/lydian_subdominant_11.svg",
+    "audio": "sounds/patterns/lydian_subdominant_11.mp3"
+  },
+  {
+    "id": "lydian_subdominant_12",
+    "mode": "lydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/lydian_subdominant_12.svg",
+    "audio": "sounds/patterns/lydian_subdominant_12.mp3"
+  },
+  {
+    "id": "lydian_expanded_01",
+    "mode": "lydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/lydian_expanded_01.svg",
+    "audio": "sounds/patterns/lydian_expanded_01.mp3"
+  },
+  {
+    "id": "lydian_expanded_02",
+    "mode": "lydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/lydian_expanded_02.svg",
+    "audio": "sounds/patterns/lydian_expanded_02.mp3"
+  },
+  {
+    "id": "lydian_expanded_03",
+    "mode": "lydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/lydian_expanded_03.svg",
+    "audio": "sounds/patterns/lydian_expanded_03.mp3"
+  },
+  {
+    "id": "lydian_expanded_04",
+    "mode": "lydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/lydian_expanded_04.svg",
+    "audio": "sounds/patterns/lydian_expanded_04.mp3"
+  },
+  {
+    "id": "lydian_cadential_01",
+    "mode": "lydian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "SO",
+      "MI",
+      "FA"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 FA",
+    "image": "images/patterns/lydian_cadential_01.svg",
+    "audio": "sounds/patterns/lydian_cadential_01.mp3"
+  },
+  {
+    "id": "lydian_cadential_02",
+    "mode": "lydian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "DO",
+      "RE",
+      "DO"
+    ],
+    "label": "DO \u00b7 RE \u00b7 DO",
+    "image": "images/patterns/lydian_cadential_02.svg",
+    "audio": "sounds/patterns/lydian_cadential_02.mp3"
+  },
+  {
+    "id": "lydian_linear_01",
+    "mode": "lydian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "FA",
+      "SO",
+      "LA"
+    ],
+    "label": "FA \u00b7 SOL \u00b7 LA",
+    "image": "images/patterns/lydian_linear_01.svg",
+    "audio": "sounds/patterns/lydian_linear_01.mp3"
+  },
+  {
+    "id": "lydian_linear_02",
+    "mode": "lydian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "TI",
+      "LA",
+      "SO",
+      "FA"
+    ],
+    "label": "TI \u00b7 LA \u00b7 SOL \u00b7 FA",
+    "image": "images/patterns/lydian_linear_02.svg",
+    "audio": "sounds/patterns/lydian_linear_02.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_01",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/mixolydian_tonic_01.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_01.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_02",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/mixolydian_tonic_02.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_02.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_03",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "TI",
+      "SO"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/mixolydian_tonic_03.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_03.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_04",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "RE",
+      "SO"
+    ],
+    "label": "TI \u00b7 RE \u00b7 SOL",
+    "image": "images/patterns/mixolydian_tonic_04.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_04.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_05",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "SO",
+      "TI"
+    ],
+    "label": "RE \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/mixolydian_tonic_05.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_05.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_06",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "SO",
+      "RE"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 RE",
+    "image": "images/patterns/mixolydian_tonic_06.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_06.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_07",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "RE",
+      "TI"
+    ],
+    "label": "SOL \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/mixolydian_tonic_07.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_07.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_08",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "SO",
+      "RE"
+    ],
+    "label": "RE \u00b7 SOL \u00b7 RE",
+    "image": "images/patterns/mixolydian_tonic_08.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_08.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_09",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 TI",
+    "image": "images/patterns/mixolydian_tonic_09.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_09.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_10",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL",
+    "image": "images/patterns/mixolydian_tonic_10.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_10.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_11",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "RE"
+    ],
+    "label": "SOL \u00b7 RE",
+    "image": "images/patterns/mixolydian_tonic_11.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_11.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_12",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "SO"
+    ],
+    "label": "RE \u00b7 SOL",
+    "image": "images/patterns/mixolydian_tonic_12.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_12.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_13",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 RE",
+    "image": "images/patterns/mixolydian_tonic_13.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_13.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_14",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI",
+    "image": "images/patterns/mixolydian_tonic_14.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_14.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_15",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE",
+      "SO"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE \u00b7 SOL",
+    "image": "images/patterns/mixolydian_tonic_15.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_15.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_16",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/mixolydian_tonic_16.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_16.mp3"
+  },
+  {
+    "id": "mixolydian_tonic_17",
+    "mode": "mixolydian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/mixolydian_tonic_17.svg",
+    "audio": "sounds/patterns/mixolydian_tonic_17.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_01",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA",
+      "LA"
+    ],
+    "label": "RE \u00b7 FA \u00b7 LA",
+    "image": "images/patterns/mixolydian_dominant_01.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_01.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_02",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/mixolydian_dominant_02.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_02.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_03",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "RE"
+    ],
+    "label": "FA \u00b7 LA \u00b7 RE",
+    "image": "images/patterns/mixolydian_dominant_03.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_03.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_04",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/mixolydian_dominant_04.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_04.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_05",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/mixolydian_dominant_05.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_05.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_06",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "DO",
+      "LA"
+    ],
+    "label": "RE \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/mixolydian_dominant_06.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_06.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_07",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "FA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 FA",
+    "image": "images/patterns/mixolydian_dominant_07.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_07.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_08",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 FA",
+    "image": "images/patterns/mixolydian_dominant_08.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_08.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_09",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE",
+    "image": "images/patterns/mixolydian_dominant_09.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_09.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_10",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 LA",
+    "image": "images/patterns/mixolydian_dominant_10.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_10.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_11",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA",
+    "image": "images/patterns/mixolydian_dominant_11.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_11.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_12",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "DO"
+    ],
+    "label": "FA \u00b7 DO",
+    "image": "images/patterns/mixolydian_dominant_12.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_12.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_13",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "FA"
+    ],
+    "label": "DO \u00b7 FA",
+    "image": "images/patterns/mixolydian_dominant_13.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_13.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_14",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "RE",
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "RE \u00b7 DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/mixolydian_dominant_14.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_14.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_15",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO",
+      "RE"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO \u00b7 RE",
+    "image": "images/patterns/mixolydian_dominant_15.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_15.mp3"
+  },
+  {
+    "id": "mixolydian_dominant_16",
+    "mode": "mixolydian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "FA",
+      "RE",
+      "DO"
+    ],
+    "label": "LA \u00b7 FA \u00b7 RE \u00b7 DO",
+    "image": "images/patterns/mixolydian_dominant_16.svg",
+    "audio": "sounds/patterns/mixolydian_dominant_16.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_01",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/mixolydian_subdominant_01.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_01.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_02",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/mixolydian_subdominant_02.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_02.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_03",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "DO"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 DO",
+    "image": "images/patterns/mixolydian_subdominant_03.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_03.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_04",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "SO",
+      "MI"
+    ],
+    "label": "DO \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/mixolydian_subdominant_04.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_04.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_05",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "DO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/mixolydian_subdominant_05.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_05.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_06",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "DO",
+      "SO"
+    ],
+    "label": "MI \u00b7 DO \u00b7 SOL",
+    "image": "images/patterns/mixolydian_subdominant_06.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_06.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_07",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "MI"
+    ],
+    "label": "DO \u00b7 MI",
+    "image": "images/patterns/mixolydian_subdominant_07.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_07.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_08",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "DO"
+    ],
+    "label": "MI \u00b7 DO",
+    "image": "images/patterns/mixolydian_subdominant_08.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_08.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_09",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "SO"
+    ],
+    "label": "MI \u00b7 SOL",
+    "image": "images/patterns/mixolydian_subdominant_09.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_09.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_10",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI",
+    "image": "images/patterns/mixolydian_subdominant_10.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_10.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_11",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO",
+      "DO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL \u00b7 DO",
+    "image": "images/patterns/mixolydian_subdominant_11.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_11.mp3"
+  },
+  {
+    "id": "mixolydian_subdominant_12",
+    "mode": "mixolydian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/mixolydian_subdominant_12.svg",
+    "audio": "sounds/patterns/mixolydian_subdominant_12.mp3"
+  },
+  {
+    "id": "mixolydian_expanded_01",
+    "mode": "mixolydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/mixolydian_expanded_01.svg",
+    "audio": "sounds/patterns/mixolydian_expanded_01.mp3"
+  },
+  {
+    "id": "mixolydian_expanded_02",
+    "mode": "mixolydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/mixolydian_expanded_02.svg",
+    "audio": "sounds/patterns/mixolydian_expanded_02.mp3"
+  },
+  {
+    "id": "mixolydian_expanded_03",
+    "mode": "mixolydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/mixolydian_expanded_03.svg",
+    "audio": "sounds/patterns/mixolydian_expanded_03.mp3"
+  },
+  {
+    "id": "mixolydian_expanded_04",
+    "mode": "mixolydian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/mixolydian_expanded_04.svg",
+    "audio": "sounds/patterns/mixolydian_expanded_04.mp3"
+  },
+  {
+    "id": "mixolydian_cadential_01",
+    "mode": "mixolydian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "LA",
+      "FA",
+      "SO"
+    ],
+    "label": "LA \u00b7 FA \u00b7 SOL",
+    "image": "images/patterns/mixolydian_cadential_01.svg",
+    "audio": "sounds/patterns/mixolydian_cadential_01.mp3"
+  },
+  {
+    "id": "mixolydian_cadential_02",
+    "mode": "mixolydian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "RE",
+      "MI",
+      "RE"
+    ],
+    "label": "RE \u00b7 MI \u00b7 RE",
+    "image": "images/patterns/mixolydian_cadential_02.svg",
+    "audio": "sounds/patterns/mixolydian_cadential_02.mp3"
+  },
+  {
+    "id": "mixolydian_linear_01",
+    "mode": "mixolydian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "SO",
+      "LA",
+      "TI"
+    ],
+    "label": "SOL \u00b7 LA \u00b7 TI",
+    "image": "images/patterns/mixolydian_linear_01.svg",
+    "audio": "sounds/patterns/mixolydian_linear_01.mp3"
+  },
+  {
+    "id": "mixolydian_linear_02",
+    "mode": "mixolydian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "DO",
+      "TI",
+      "LA",
+      "SO"
+    ],
+    "label": "DO \u00b7 TI \u00b7 LA \u00b7 SOL",
+    "image": "images/patterns/mixolydian_linear_02.svg",
+    "audio": "sounds/patterns/mixolydian_linear_02.mp3"
+  },
+  {
+    "id": "locrian_tonic_01",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/locrian_tonic_01.svg",
+    "audio": "sounds/patterns/locrian_tonic_01.mp3"
+  },
+  {
+    "id": "locrian_tonic_02",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/locrian_tonic_02.svg",
+    "audio": "sounds/patterns/locrian_tonic_02.mp3"
+  },
+  {
+    "id": "locrian_tonic_03",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "RE",
+      "TI"
+    ],
+    "label": "TI \u00b7 RE \u00b7 TI",
+    "image": "images/patterns/locrian_tonic_03.svg",
+    "audio": "sounds/patterns/locrian_tonic_03.mp3"
+  },
+  {
+    "id": "locrian_tonic_04",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "FA",
+      "TI"
+    ],
+    "label": "RE \u00b7 FA \u00b7 TI",
+    "image": "images/patterns/locrian_tonic_04.svg",
+    "audio": "sounds/patterns/locrian_tonic_04.mp3"
+  },
+  {
+    "id": "locrian_tonic_05",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "TI",
+      "RE"
+    ],
+    "label": "FA \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/locrian_tonic_05.svg",
+    "audio": "sounds/patterns/locrian_tonic_05.mp3"
+  },
+  {
+    "id": "locrian_tonic_06",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "TI",
+      "FA"
+    ],
+    "label": "RE \u00b7 TI \u00b7 FA",
+    "image": "images/patterns/locrian_tonic_06.svg",
+    "audio": "sounds/patterns/locrian_tonic_06.mp3"
+  },
+  {
+    "id": "locrian_tonic_07",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "FA",
+      "RE"
+    ],
+    "label": "TI \u00b7 FA \u00b7 RE",
+    "image": "images/patterns/locrian_tonic_07.svg",
+    "audio": "sounds/patterns/locrian_tonic_07.mp3"
+  },
+  {
+    "id": "locrian_tonic_08",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "TI",
+      "FA"
+    ],
+    "label": "FA \u00b7 TI \u00b7 FA",
+    "image": "images/patterns/locrian_tonic_08.svg",
+    "audio": "sounds/patterns/locrian_tonic_08.mp3"
+  },
+  {
+    "id": "locrian_tonic_09",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "RE"
+    ],
+    "label": "TI \u00b7 RE",
+    "image": "images/patterns/locrian_tonic_09.svg",
+    "audio": "sounds/patterns/locrian_tonic_09.mp3"
+  },
+  {
+    "id": "locrian_tonic_10",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "TI"
+    ],
+    "label": "RE \u00b7 TI",
+    "image": "images/patterns/locrian_tonic_10.svg",
+    "audio": "sounds/patterns/locrian_tonic_10.mp3"
+  },
+  {
+    "id": "locrian_tonic_11",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "FA"
+    ],
+    "label": "TI \u00b7 FA",
+    "image": "images/patterns/locrian_tonic_11.svg",
+    "audio": "sounds/patterns/locrian_tonic_11.mp3"
+  },
+  {
+    "id": "locrian_tonic_12",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "TI"
+    ],
+    "label": "FA \u00b7 TI",
+    "image": "images/patterns/locrian_tonic_12.svg",
+    "audio": "sounds/patterns/locrian_tonic_12.mp3"
+  },
+  {
+    "id": "locrian_tonic_13",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 FA",
+    "image": "images/patterns/locrian_tonic_13.svg",
+    "audio": "sounds/patterns/locrian_tonic_13.mp3"
+  },
+  {
+    "id": "locrian_tonic_14",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE",
+    "image": "images/patterns/locrian_tonic_14.svg",
+    "audio": "sounds/patterns/locrian_tonic_14.mp3"
+  },
+  {
+    "id": "locrian_tonic_15",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "TI",
+      "RE",
+      "FA",
+      "TI"
+    ],
+    "label": "TI \u00b7 RE \u00b7 FA \u00b7 TI",
+    "image": "images/patterns/locrian_tonic_15.svg",
+    "audio": "sounds/patterns/locrian_tonic_15.mp3"
+  },
+  {
+    "id": "locrian_tonic_16",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "FA",
+      "RE",
+      "TI",
+      "RE"
+    ],
+    "label": "FA \u00b7 RE \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/locrian_tonic_16.svg",
+    "audio": "sounds/patterns/locrian_tonic_16.mp3"
+  },
+  {
+    "id": "locrian_tonic_17",
+    "mode": "locrian",
+    "category": "tonic",
+    "categoryLabel": "Tonic",
+    "syllables": [
+      "RE",
+      "TI",
+      "RE",
+      "FA"
+    ],
+    "label": "RE \u00b7 TI \u00b7 RE \u00b7 FA",
+    "image": "images/patterns/locrian_tonic_17.svg",
+    "audio": "sounds/patterns/locrian_tonic_17.mp3"
+  },
+  {
+    "id": "locrian_dominant_01",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA",
+      "DO"
+    ],
+    "label": "FA \u00b7 LA \u00b7 DO",
+    "image": "images/patterns/locrian_dominant_01.svg",
+    "audio": "sounds/patterns/locrian_dominant_01.mp3"
+  },
+  {
+    "id": "locrian_dominant_02",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA",
+    "image": "images/patterns/locrian_dominant_02.svg",
+    "audio": "sounds/patterns/locrian_dominant_02.mp3"
+  },
+  {
+    "id": "locrian_dominant_03",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "FA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 FA",
+    "image": "images/patterns/locrian_dominant_03.svg",
+    "audio": "sounds/patterns/locrian_dominant_03.mp3"
+  },
+  {
+    "id": "locrian_dominant_04",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/locrian_dominant_04.svg",
+    "audio": "sounds/patterns/locrian_dominant_04.mp3"
+  },
+  {
+    "id": "locrian_dominant_05",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI",
+    "image": "images/patterns/locrian_dominant_05.svg",
+    "audio": "sounds/patterns/locrian_dominant_05.mp3"
+  },
+  {
+    "id": "locrian_dominant_06",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "MI",
+      "DO"
+    ],
+    "label": "FA \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/locrian_dominant_06.svg",
+    "audio": "sounds/patterns/locrian_dominant_06.mp3"
+  },
+  {
+    "id": "locrian_dominant_07",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "MI",
+      "LA"
+    ],
+    "label": "DO \u00b7 MI \u00b7 LA",
+    "image": "images/patterns/locrian_dominant_07.svg",
+    "audio": "sounds/patterns/locrian_dominant_07.mp3"
+  },
+  {
+    "id": "locrian_dominant_08",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "LA"
+    ],
+    "label": "FA \u00b7 LA",
+    "image": "images/patterns/locrian_dominant_08.svg",
+    "audio": "sounds/patterns/locrian_dominant_08.mp3"
+  },
+  {
+    "id": "locrian_dominant_09",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "FA"
+    ],
+    "label": "LA \u00b7 FA",
+    "image": "images/patterns/locrian_dominant_09.svg",
+    "audio": "sounds/patterns/locrian_dominant_09.mp3"
+  },
+  {
+    "id": "locrian_dominant_10",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO"
+    ],
+    "label": "LA \u00b7 DO",
+    "image": "images/patterns/locrian_dominant_10.svg",
+    "audio": "sounds/patterns/locrian_dominant_10.mp3"
+  },
+  {
+    "id": "locrian_dominant_11",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "LA"
+    ],
+    "label": "DO \u00b7 LA",
+    "image": "images/patterns/locrian_dominant_11.svg",
+    "audio": "sounds/patterns/locrian_dominant_11.mp3"
+  },
+  {
+    "id": "locrian_dominant_12",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "MI"
+    ],
+    "label": "LA \u00b7 MI",
+    "image": "images/patterns/locrian_dominant_12.svg",
+    "audio": "sounds/patterns/locrian_dominant_12.mp3"
+  },
+  {
+    "id": "locrian_dominant_13",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "MI",
+      "LA"
+    ],
+    "label": "MI \u00b7 LA",
+    "image": "images/patterns/locrian_dominant_13.svg",
+    "audio": "sounds/patterns/locrian_dominant_13.mp3"
+  },
+  {
+    "id": "locrian_dominant_14",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "FA",
+      "MI",
+      "DO",
+      "LA"
+    ],
+    "label": "FA \u00b7 MI \u00b7 DO \u00b7 LA",
+    "image": "images/patterns/locrian_dominant_14.svg",
+    "audio": "sounds/patterns/locrian_dominant_14.mp3"
+  },
+  {
+    "id": "locrian_dominant_15",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "LA",
+      "DO",
+      "MI",
+      "FA"
+    ],
+    "label": "LA \u00b7 DO \u00b7 MI \u00b7 FA",
+    "image": "images/patterns/locrian_dominant_15.svg",
+    "audio": "sounds/patterns/locrian_dominant_15.mp3"
+  },
+  {
+    "id": "locrian_dominant_16",
+    "mode": "locrian",
+    "category": "dominant",
+    "categoryLabel": "Dominant",
+    "syllables": [
+      "DO",
+      "LA",
+      "FA",
+      "MI"
+    ],
+    "label": "DO \u00b7 LA \u00b7 FA \u00b7 MI",
+    "image": "images/patterns/locrian_dominant_16.svg",
+    "audio": "sounds/patterns/locrian_dominant_16.mp3"
+  },
+  {
+    "id": "locrian_subdominant_01",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI",
+    "image": "images/patterns/locrian_subdominant_01.svg",
+    "audio": "sounds/patterns/locrian_subdominant_01.mp3"
+  },
+  {
+    "id": "locrian_subdominant_02",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI",
+    "image": "images/patterns/locrian_subdominant_02.svg",
+    "audio": "sounds/patterns/locrian_subdominant_02.mp3"
+  },
+  {
+    "id": "locrian_subdominant_03",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "TI",
+      "MI"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 MI",
+    "image": "images/patterns/locrian_subdominant_03.svg",
+    "audio": "sounds/patterns/locrian_subdominant_03.mp3"
+  },
+  {
+    "id": "locrian_subdominant_04",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "TI",
+      "SO"
+    ],
+    "label": "MI \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/locrian_subdominant_04.svg",
+    "audio": "sounds/patterns/locrian_subdominant_04.mp3"
+  },
+  {
+    "id": "locrian_subdominant_05",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "MI",
+      "SO"
+    ],
+    "label": "TI \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/locrian_subdominant_05.svg",
+    "audio": "sounds/patterns/locrian_subdominant_05.mp3"
+  },
+  {
+    "id": "locrian_subdominant_06",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "MI",
+      "TI"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 TI",
+    "image": "images/patterns/locrian_subdominant_06.svg",
+    "audio": "sounds/patterns/locrian_subdominant_06.mp3"
+  },
+  {
+    "id": "locrian_subdominant_07",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "SO"
+    ],
+    "label": "MI \u00b7 SOL",
+    "image": "images/patterns/locrian_subdominant_07.svg",
+    "audio": "sounds/patterns/locrian_subdominant_07.mp3"
+  },
+  {
+    "id": "locrian_subdominant_08",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "MI"
+    ],
+    "label": "SOL \u00b7 MI",
+    "image": "images/patterns/locrian_subdominant_08.svg",
+    "audio": "sounds/patterns/locrian_subdominant_08.mp3"
+  },
+  {
+    "id": "locrian_subdominant_09",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "SO",
+      "TI"
+    ],
+    "label": "SOL \u00b7 TI",
+    "image": "images/patterns/locrian_subdominant_09.svg",
+    "audio": "sounds/patterns/locrian_subdominant_09.mp3"
+  },
+  {
+    "id": "locrian_subdominant_10",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL",
+    "image": "images/patterns/locrian_subdominant_10.svg",
+    "audio": "sounds/patterns/locrian_subdominant_10.mp3"
+  },
+  {
+    "id": "locrian_subdominant_11",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "MI",
+      "SO",
+      "TI",
+      "MI"
+    ],
+    "label": "MI \u00b7 SOL \u00b7 TI \u00b7 MI",
+    "image": "images/patterns/locrian_subdominant_11.svg",
+    "audio": "sounds/patterns/locrian_subdominant_11.mp3"
+  },
+  {
+    "id": "locrian_subdominant_12",
+    "mode": "locrian",
+    "category": "subdominant",
+    "categoryLabel": "Subdominant",
+    "syllables": [
+      "TI",
+      "SO",
+      "MI",
+      "SO"
+    ],
+    "label": "TI \u00b7 SOL \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/locrian_subdominant_12.svg",
+    "audio": "sounds/patterns/locrian_subdominant_12.mp3"
+  },
+  {
+    "id": "locrian_expanded_01",
+    "mode": "locrian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "SO",
+      "TI",
+      "RE"
+    ],
+    "label": "SOL \u00b7 TI \u00b7 RE",
+    "image": "images/patterns/locrian_expanded_01.svg",
+    "audio": "sounds/patterns/locrian_expanded_01.mp3"
+  },
+  {
+    "id": "locrian_expanded_02",
+    "mode": "locrian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "RE",
+      "TI",
+      "SO"
+    ],
+    "label": "RE \u00b7 TI \u00b7 SOL",
+    "image": "images/patterns/locrian_expanded_02.svg",
+    "audio": "sounds/patterns/locrian_expanded_02.mp3"
+  },
+  {
+    "id": "locrian_expanded_03",
+    "mode": "locrian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "DO",
+      "MI",
+      "SO"
+    ],
+    "label": "DO \u00b7 MI \u00b7 SOL",
+    "image": "images/patterns/locrian_expanded_03.svg",
+    "audio": "sounds/patterns/locrian_expanded_03.mp3"
+  },
+  {
+    "id": "locrian_expanded_04",
+    "mode": "locrian",
+    "category": "expanded",
+    "categoryLabel": "Expanded Functions",
+    "syllables": [
+      "SO",
+      "MI",
+      "DO"
+    ],
+    "label": "SOL \u00b7 MI \u00b7 DO",
+    "image": "images/patterns/locrian_expanded_04.svg",
+    "audio": "sounds/patterns/locrian_expanded_04.mp3"
+  },
+  {
+    "id": "locrian_cadential_01",
+    "mode": "locrian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "DO",
+      "LA",
+      "TI"
+    ],
+    "label": "DO \u00b7 LA \u00b7 TI",
+    "image": "images/patterns/locrian_cadential_01.svg",
+    "audio": "sounds/patterns/locrian_cadential_01.mp3"
+  },
+  {
+    "id": "locrian_cadential_02",
+    "mode": "locrian",
+    "category": "cadential",
+    "categoryLabel": "Cadential Intermediaries",
+    "syllables": [
+      "FA",
+      "SO",
+      "FA"
+    ],
+    "label": "FA \u00b7 SOL \u00b7 FA",
+    "image": "images/patterns/locrian_cadential_02.svg",
+    "audio": "sounds/patterns/locrian_cadential_02.mp3"
+  },
+  {
+    "id": "locrian_linear_01",
+    "mode": "locrian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "TI",
+      "DO",
+      "RE"
+    ],
+    "label": "TI \u00b7 DO \u00b7 RE",
+    "image": "images/patterns/locrian_linear_01.svg",
+    "audio": "sounds/patterns/locrian_linear_01.mp3"
+  },
+  {
+    "id": "locrian_linear_02",
+    "mode": "locrian",
+    "category": "linear",
+    "categoryLabel": "Linear Intermediaries",
+    "syllables": [
+      "MI",
+      "RE",
+      "DO",
+      "TI"
+    ],
+    "label": "MI \u00b7 RE \u00b7 DO \u00b7 TI",
+    "image": "images/patterns/locrian_linear_02.svg",
+    "audio": "sounds/patterns/locrian_linear_02.mp3"
+  }
+]
